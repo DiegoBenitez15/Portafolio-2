@@ -9,6 +9,6 @@ add_executable(Ejercicio-2 Ejercicio-2/main.c Ejercicio-2/Supermercado.c Ejercic
 
 add_executable(Ejercicio-3 Ejercicio-3/main.c Ejercicio-3/Funciones.c Ejercicio-3/Funciones.h Ejercicio-3/minunit.h)
 
-add_executable(Ejercicio-4)
+add_executable(Ejercicio-4 Ejercicio-4/main.c Ejercicio-4/Estudiantes.c Ejercicio-4/Estudiantes.h Ejercicio-4/minunit.h)
 
-add_executable(Ejercicio-5)
+add_executable(Ejercicio-5 Ejercicio-5/main.c Ejercicio-5/Cadenas.c Ejercicio-5/Cadenas.h Ejercicio-5/minunit.h)
