@@ -5,6 +5,7 @@
 #include "Estudiantes.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 void introducir(ESTUDIANTE *est)
 {
@@ -32,7 +33,7 @@ void introducir(ESTUDIANTE *est)
 
         printf("\nIntroduzca la matricula del estudiante: ");
         fflush(stdin);
-        scanf("%ld",&est[x].matricula);
+        scanf("%d",&est[x].matricula);
 
         printf("\nIntroduzca la edad del estudiante: ");
         fflush(stdin);
@@ -116,43 +117,34 @@ void introducir(ESTUDIANTE *est)
 
 void matricula(ESTUDIANTE *est,int is,int mat)
 {
-    int n;
-    n = bbmatricula(mat,est,0,is);
-    organizar(est,n,is);
-}
-
-int bbmatricula(long mat,ESTUDIANTE *est,int ii,int is)
-{
-    int med;
-    med = (is - ii) / 2 - ii;
-
-    if(mat == est[med].matricula)
-    {
-        return med;
-    }
-    else if(ii == is)
-    {
-        return -1;
-    }
-    else if(mat < est[med].matricula)
-    {
-        return bbmatricula(mat,est,ii,med - 1);
-    }
-    else if(mat > est[med].matricula)
-    {
-        return bbmatricula(mat,est,med + 1,is);
-    }
-}
-
-void organizar(ESTUDIANTE *est,int ii,int is)
-{
-    int i;
+    int i,c;
     ESTUDIANTE aux;
+    c = 0;
 
-    for(i = ii;i < is - 1;is++)
+    for(i = 0;i < is;i++)
     {
-        aux = est[ii];
-        est[ii] = est[ii + 1];
-        est[ii + 1] = aux;
+        if(est[i+1].matricula == 0)
+        {
+            break;
+        }
+        if(est[i].matricula == mat)
+        {
+            aux = est[i];
+            est[i] = est[i+1];
+            est[i+1] = aux;
+        }
+
+        c++;
+    }
+    est = (ESTUDIANTE*)realloc(est,c * sizeof(ESTUDIANTE));
+}
+
+int nombreeval(ESTUDIANTE *est,char n[],int is)
+{
+    int i,j,c;
+
+    for(i =0;i < est[0].c_materias;i++)
+    {
+        for(j = 0;j < est[0].)
     }
 }

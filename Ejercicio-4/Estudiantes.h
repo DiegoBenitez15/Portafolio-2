@@ -22,14 +22,13 @@ typedef struct materia
 typedef struct estudiante
 {
     char *nombre;
-    long matricula;
+    int matricula;
     int edad;
     int c_materias;
     MATERIA mat[];
 }ESTUDIANTE;
 
-int bbmatricula(long mat,ESTUDIANTE *est,int ii,int is);
-void organizar(ESTUDIANTE *est,int ii,int is);
+void matricula(ESTUDIANTE *est,int is,int mat);
 void introducir(ESTUDIANTE *est);
 
 #endif //PORTAFOLIO_2_ESTUDIANTES_H

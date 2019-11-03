@@ -8,43 +8,92 @@
 
 #define MINUNIT_EPSILON 1E-12
 
-MU_TEST(test_NombrePrueba)
+MU_TEST(EliminarPorNombre)
 {
-    ESTUDIANTE est[2];
-    est[0].nombre = "Diego Benitez";
-    est[0].matricula = 20181603;
-    est[0].edad = 18;
-    est[0].c_materias = 1;
-    est[0].mat[0].nombre = "Programacion";
-    est[0].mat[0].c_eval = 1;
-    est[0].mat[0].eval[0].nombre = "Boo";
-    est[0].mat[0].eval[0].pod = 100;
-    est[0].mat[0].eval[0].nota = 100;
+    ESTUDIANTE *p;
+    int x = 23;
+    p = (ESTUDIANTE*)calloc(x, sizeof(ESTUDIANTE));
+    int m = 20181603;
 
-    est[1].nombre = "Delaine Lora";
-    est[1].matricula = 20181673;
-    est[1].edad = 20;
-    est[1].c_materias = 2;
-    est[1].mat[0].nombre = "Espanol";
-    est[1].mat[0].c_eval = 2;
-    est[1].mat[0].eval[0].nombre = "Argumentativa";
-    est[1].mat[0].eval[0].pod = 50;
-    est[1].mat[0].eval[0].nota = 43;
-    est[1].mat[0].eval[1].nombre = "Narrativa";
-    est[1].mat[0].eval[1].pod = 50;
-    est[1].mat[0].eval[1].nota = 72;
-    est[1].mat[1].nombre = "Razonamiento Matematico";
-    est[1].mat[1].c_eval = 1;
-    est[1].mat[1].eval[0].nombre = "Conjuntos";
-    est[1].mat[1].eval[0].pod = 100;
-    est[1].mat[1].eval[0].nota = 32;
+    p[0].nombre = "Diego Benitez";
+    p[0].matricula = 20181603;
 
 
+    p[1].nombre = "Delaine Lora";
+    p[1].matricula = 20181673;
 
+    matricula(p,x,m);
+}
+
+MU_TEST(EliminarPorNombre2)
+{
+    ESTUDIANTE *p;
+    int x = 23;
+    p = (ESTUDIANTE*)calloc(x, sizeof(ESTUDIANTE));
+    int m = 20181603;
+
+    p[0].nombre = "Diego Benitez";
+    p[0].matricula = 20181603;
+
+    p[1].nombre = "Delaine Lora";
+    p[1].matricula = 20181673;
+
+    p[2].nombre = "Jose Benitez";
+    p[2].matricula = 20171055;
+
+    p[3].nombre = "Vistor Aguilera";
+    p[3].matricula = 20176543;
+
+    p[4].nombre = "Juancho Laviera";
+    p[4].matricula = 20181646;
+
+    matricula(p,x,m);
+}
+
+MU_TEST(EliminarPorNombre3)
+{
+    ESTUDIANTE *p;
+    int x = 23;
+    p = (ESTUDIANTE*)calloc(x, sizeof(ESTUDIANTE));
+    int m = 20181603;
+
+    p[0].nombre = "Diego Benitez";
+    p[0].matricula = 20181603;
+
+    p[1].nombre = "Delaine Lora";
+    p[1].matricula = 20181673;
+
+    p[2].nombre = "Jose Benitez";
+    p[2].matricula = 20171055;
+
+    p[3].nombre = "Vistor Aguilera";
+    p[3].matricula = 20176543;
+
+    p[4].nombre = "Juancho Laviera";
+    p[4].matricula = 20181646;
+
+    p[5].nombre = "Bryan Vargas";
+    p[5].matricula = 20183456;
+
+    p[6].nombre = "Ricardo Constatinopla";
+    p[6].matricula = 20156224;
+
+    p[7].nombre = "Aristobulo Isturiz";
+    p[7].matricula = 20145668;
+
+    p[8].nombre = "Javs Bunny";
+    p[8].matricula = 20181435;
+
+    p[9].nombre = "Vin Calvo";
+    p[9].matricula = 20181456;
+
+    matricula(p,x,m);
 }
 
 MU_TEST_SUITE(test_suite) {
-    MU_RUN_TEST(test_NombrePrueba);
+    MU_RUN_TEST(EliminarPorNombre);
+    MU_RUN_TEST(EliminarPorNombre2);
+    MU_RUN_TEST(EliminarPorNombre3);
 }
 
 int main(int argc, char *argv[]) {
