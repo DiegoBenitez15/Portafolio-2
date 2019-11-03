@@ -7,114 +7,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-void introducir(ESTUDIANTE *est)
-{
-    int x,i,j,n,k;
-    char sn;
-    x = 0;
-
-    do
-    {
-        est[x].nombre = (char*) malloc(35 * sizeof(char));
-        printf("\nIntroduzca el nombre del estudiante: ");
-        fflush(stdin);
-        gets(est[x].nombre);
-        n= 0;
-        k = 0;
-
-
-        while(est[x].nombre[k] != '\0')
-        {
-            n++;
-            k++;
-        }
-
-        est[x].nombre = (char*) realloc(est[x].nombre,n * sizeof(char));
-
-        printf("\nIntroduzca la matricula del estudiante: ");
-        fflush(stdin);
-        scanf("%d",&est[x].matricula);
-
-        printf("\nIntroduzca la edad del estudiante: ");
-        fflush(stdin);
-        scanf("%d",&est[x].edad);
-
-        printf("\nIntroduzca la cantidad de materias en curso: ");
-        fflush(stdin);
-        scanf("%d",&est[x].c_materias);
-
-        for(i = 0;i < est[x].c_materias;i++)
-        {
-            est[x].mat[i].nombre = (char*)malloc(34 * sizeof(char));
-            printf("\nIntroduzca el nombre de la %d materia: ",i+1);
-            fflush(stdin);
-            gets(est[x].mat[i].nombre);
-            n= 0;
-            k = 0;
-
-            while(est[x].nombre[k] != '\0')
-            {
-                n++;
-                k++;
-            }
-
-            est[x].mat[i].nombre = (char*) realloc(est[x].mat[i].nombre,n * sizeof(char));
-
-            printf("\nIngrese la cantidad de evaluaciones de la materia: ");
-            fflush(stdin);
-            scanf("%d",&est[x].mat[i].c_eval);
-
-            for(j = 0;j < est[x].mat[i].c_eval;j++)
-            {
-                float suma = 0;
-
-                est[x].mat[i].eval[j].nombre = (char*) malloc(35 * sizeof(char));
-                printf("\nIngrese el nombre de la %d evaluacion: ",j+1);
-                fflush(stdin);
-                gets(est[x].mat[i].eval[j].nombre);
-                n= 0;
-                k = 0;
-
-                while(est[x].mat[i].eval[j].nombre[k] != '\0')
-                {
-                    n++;
-                    k++;
-                }
-
-                est[x].mat[i].eval[j].nombre = (char*) realloc(est[x].mat[i].eval[j].nombre,n * sizeof(char));
-
-                printf("\nIngrese la poderacion de la evaluacion: ");
-                fflush(stdin);
-                scanf("%f",&est[x].mat[i].eval[j].pod);
-
-                suma += est[x].mat[i].eval[j].pod;
-
-                printf("\nIngrese la nota sacada: ");
-                fflush(stdin);
-                scanf("%f",&est[x].mat[i].eval[j].nota);
-
-
-                if(est[x].mat[i].eval[j].nota > 100)
-                {
-                    printf("\n|ERROR| La nota no puede ser mayor a 100\n");
-                    j--;
-                }
-                else if(suma > 100)
-                {
-                    printf("\n|ERROR| La suma de las ponderaciones de las evaluciones de una materia no ser mayor a 100\n");
-                    j--;
-                }
-            }
-
-        }
-        x++;
-
-        printf("\nQuieres Ingresar a otro estudiante?");
-        fflush(stdin);
-        sn = getchar();
-    }while(sn == 'S' || sn == 's');
-}
-
 void matricula(ESTUDIANTE *est,int is,int mat)
 {
     int i,c;
@@ -139,12 +31,25 @@ void matricula(ESTUDIANTE *est,int is,int mat)
     est = (ESTUDIANTE*)realloc(est,c * sizeof(ESTUDIANTE));
 }
 
-int nombreeval(ESTUDIANTE *est,char n[],int is)
+void eliminarnombre(ESTUDIANTE *est,char nombre[],int x)
 {
-    int i,j,c;
+    int i;
+    ESTUDIANTE aux;
+    aux.mat = (MATERIA*) malloc(1 * sizeof(MATERIA));
 
-    for(i =0;i < est[0].c_materias;i++)
+    for(i = 0; i < est[x].c_materias - 1;i++)
     {
-        for(j = 0;j < est[0].)
+        if(strcmp(nombre,est[x].mat[i].nombre) == 0)
+        {
+            aux.mat[0] = est[x].mat[i];
+            est[x].mat[i] = est[x].mat[i+1];
+            est[x].mat[i+1] = aux.mat[0];
+        }
+    }
+
+    if(strcmp(nombre,est[x].mat[est[x].c_materias - 1].nombre) == 0)
+    {
+        est[x].c_materias = est[x].c_materias - 1;
+        est[x].mat = (MATERIA*) realloc(est[x].mat,est[x].c_materias);
     }
 }

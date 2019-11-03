@@ -16,7 +16,7 @@ typedef struct materia
 {
     char *nombre;
     int c_eval;
-    EVALUACIONES eval[];
+    EVALUACIONES *eval;
 }MATERIA;
 
 typedef struct estudiante
@@ -25,10 +25,11 @@ typedef struct estudiante
     int matricula;
     int edad;
     int c_materias;
-    MATERIA mat[];
+    MATERIA *mat;
 }ESTUDIANTE;
 
 void matricula(ESTUDIANTE *est,int is,int mat);
+void eliminarnombre(ESTUDIANTE *est,char nombre[],int x);
 void introducir(ESTUDIANTE *est);
 
 #endif //PORTAFOLIO_2_ESTUDIANTES_H
