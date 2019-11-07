@@ -31,5 +31,6 @@ typedef struct estudiante
 void matricula(ESTUDIANTE *est,int is,int mat);
 void eliminarnombre(ESTUDIANTE *est,char nombre[],int x);
 void introducir(ESTUDIANTE *est);
+void EliminarEvaluacion(ESTUDIANTE *est,int x,char nombre[]);
 
 #endif //PORTAFOLIO_2_ESTUDIANTES_H

@@ -3,36 +3,34 @@
 //
 
 #include "Funciones.h"
+#include <string.h>
 
-void quicksort(void *list, int ii, int is)
+void sort(void *base, size_t nitems, size_t size, int (*compar)(const void *, const void*))
 {
-    int pivot, i, j, temp;
-    if (ii < is)
+    int i,j,k;
+    char swap;
+    char *pt = (char*)base;
+    for (i = 0 ; i < (int)nitems - 1; i++)
     {
-        pivot = ii;
-        i = ii;
-        j = is;
-        while (i < j)
+        for(j = 0 ; j < (int)nitems - i - 1; i += size)
         {
-            while (list[i] <= list[pivot] && i <= is)
+            if ((compar)(pt + j,pt + j + size) > 0)
             {
-                i++;
-            }
-            while (list[j] > list[pivot] && j >= ii)
-            {
-                j--;
-            }
-            if (i < j)
-            {
-                temp = list[i];
-                list[i] = list[j];
-                list[j] = temp;
+                for(k = 0;k < (int)size;k++)
+                {
+                    swap = pt[j+k];
+                    pt[j+k] = pt[j+size+k];
+                    pt[j+size+k] = swap;
+                }
             }
         }
-        temp = list[j];
-        list[j] = list[pivot];
-        list[pivot] = temp;
-        quicksort(list, ii, j - 1);
-        quicksort(list, j + 1, is);
     }
+}
+
+int comparar(const void *a, const void *b)
+{
+    char *p1 = (char*)a;
+    char *p2 = (char*)b;
+
+    return strcmp(p1,p2);
 }

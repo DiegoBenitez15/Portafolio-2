@@ -3,7 +3,6 @@
 //
 
 #include "Estudiantes.h"
-#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -51,5 +50,30 @@ void eliminarnombre(ESTUDIANTE *est,char nombre[],int x)
     {
         est[x].c_materias = est[x].c_materias - 1;
         est[x].mat = (MATERIA*) realloc(est[x].mat,est[x].c_materias);
+    }
+}
+
+void EliminarEvaluacion(ESTUDIANTE *est,int x,char nombre[])
+{
+    int i,j;
+    ESTUDIANTE aux;
+
+    for(i = 0;i < est[x].c_materias;i++)
+    {
+        for(j = 0;j < est[x].mat[i].c_eval;j++)
+        {
+            if(strcpy(nombre,est[x].mat[i].eval[j].nombre) == 0)
+            {
+                aux.mat[0].eval[0] = est[x].mat[i].eval[j];
+                est[x].mat[i].eval[j] = est[x].mat[i].eval[j + 1];
+                est[x].mat[i].eval[j + 1] = aux.mat[0].eval[0];
+            }
+        }
+        if(strcmp(nombre,est[x].mat[i].eval[est[x].mat[i].c_eval - 1].nombre) == 0)
+        {
+            est[x].mat[i].c_eval = est[x].mat[i].c_eval - 1;
+            est[x].mat[i].eval = (EVALUACIONES*) realloc(est[x].mat[i].eval,est[x].mat[i].c_eval);
+            break;
+        }
     }
 }

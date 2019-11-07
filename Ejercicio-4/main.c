@@ -200,14 +200,36 @@ MU_TEST(EliminarMateria3)
     mu_assert("Matematica",p[0].mat[8].nombre);
 }
 
-MU_TEST_SUITE(test_suite) {
-    MU_RUN_TEST(EliminarPorNombre);
-    MU_RUN_TEST(EliminarPorNombre2);
-    MU_RUN_TEST(EliminarPorNombre3);
+MU_TEST(eva)
+{
+    ESTUDIANTE *p;
+    char nombre[] = "Cinematica";
+    int x = 0;
 
-    MU_RUN_TEST(EliminarMateria);
-    MU_RUN_TEST(EliminarMateria2);
-    MU_RUN_TEST(EliminarMateria3);
+    p = (ESTUDIANTE*)calloc(1, sizeof(ESTUDIANTE));
+    p[0].nombre = "Diego";
+    p[0].matricula = 2018103;
+    p[0].c_materias = 1;
+    p[0].mat = (MATERIA*) malloc(p[0].c_materias * sizeof(MATERIA));
+    p[0].mat[0].nombre = (char*) malloc(7 * sizeof(char));
+    strcpy(p[0].mat[0].nombre,"Fisica");
+    p[0].mat[0].c_eval = 3;
+    p[0].mat[0].eval = (EVALUACIONES*) malloc(p[0].mat[0].c_eval * sizeof(EVALUACIONES));
+    p[0].mat[0].eval[0].nombre = (char*) malloc(10 * sizeof(char));
+    strcpy(p[0].mat[0].eval[0].nombre,"Cinematica");
+    p[0].mat[0].eval[1].nombre = (char*) malloc(8 * sizeof(char));
+    strcpy(p[0].mat[0].eval[1].nombre,"Dinamica");
+    p[0].mat[0].eval[1].nombre = (char*) malloc(12 * sizeof(char));
+    strcpy(p[0].mat[0].eval[2].nombre,"Electricidad");
+
+    EliminarEvaluacion(p,x,nombre);
+
+    mu_assert("Dinamica",p[0].mat[0].eval[0].nombre);
+    mu_assert("Electricidad",p[0].mat[0].eval[1].nombre);
+}
+
+MU_TEST_SUITE(test_suite) {
+    MU_RUN_TEST(eva);
 }
 
 int main(int argc, char *argv[]) {

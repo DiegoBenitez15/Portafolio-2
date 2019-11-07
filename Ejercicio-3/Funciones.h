@@ -5,6 +5,9 @@
 #ifndef PORTAFOLIO_2_FUNCIONES_H
 #define PORTAFOLIO_2_FUNCIONES_H
 
-void quicksort(void *list, int ii, int is);
+#include <stdlib.h>
+
+void sort(void *base, size_t nitems, size_t size, int (*compar)(const void *, const void*));
+int comparar(const void *a, const void *b);
 
 #endif //PORTAFOLIO_2_FUNCIONES_H
