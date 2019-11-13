@@ -12,3 +12,7 @@ add_executable(Ejercicio-3 Ejercicio-3/main.c Ejercicio-3/Funciones.c Ejercicio-
 add_executable(Ejercicio-4 Ejercicio-4/main.c Ejercicio-4/Estudiantes.c Ejercicio-4/Estudiantes.h Ejercicio-4/minunit.h)
 
 add_executable(Ejercicio-5 Ejercicio-5/main.c Ejercicio-5/Cadenas.c Ejercicio-5/Cadenas.h Ejercicio-5/minunit.h)
+
+add_executable(Ejercicio-7 Ejercicio-7/main.c Ejercicio-7/Contrasena.c Ejercicio-7/Contrasena.h Ejercicio-7/minunit.c)
+
+add_executable(Ejercicio-10 Ejercicio-10/main.c Ejercicio-10/Funciones.c Ejercicio-10/Funciones.h Ejercicio-10/minunit.h Ejercicio-10/Polinomios.c)
