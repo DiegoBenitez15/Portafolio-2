@@ -5,22 +5,14 @@
 #ifndef PORTAFOLIO_2_FUNCIONES_H
 #define PORTAFOLIO_2_FUNCIONES_H
 
-typedef int Valor;
-typedef struct Nodo {
-    Valor base;
-    Valor exp;
-    struct Nodo * siguiente ;
-} NODO ;
+typedef struct termino
+{
+    double coe;
+    int exp;
+    struct termino *next;
+}TERMINO;
 
-
-NODO * NuevoNodo (Valor x,Valor y);
-void InsertarCabezaLista(NODO** cabeza, Valor x,Valor y);
-void InsertarLista(NODO* anterior, Valor x,Valor y);
-NODO* BuscarLista (NODO* cabeza, Valor destino);
-NODO* BuscarPorPosicion(NODO *cabeza, int posicion); // Equivale a los []
-int BuscarPosicion(NODO *cabeza, Valor x);
-void eliminar (NODO** cabeza, Valor entrada);
-void InsertaOrden(NODO** cabeza, Valor entrada);
-void recorrer(NODO* cabeza, void (*procesar) (Valor v) );
+TERMINO* anadir(TERMINO* cabeza,int coe,int exp);
+double* polinomio(TERMINO *cabeza);
 
 #endif //PORTAFOLIO_2_FUNCIONES_H
