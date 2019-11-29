@@ -152,10 +152,10 @@ float valorletra(char x)
 
 float indice(char *p)
 {
-    float suman,sumac;
+    float sumap,sumac;
     char *x,letra,cred;
     x = p;
-    suman = 0;sumac = 0;
+    sumap = 0;sumac = 0;
 
     while(x != NULL)
     {
@@ -169,12 +169,12 @@ float indice(char *p)
                 cred = *(credito(x));
                 if(letra != 'R' && letra != 'S')
                 {
-                    suman += valorletra(letra);
+                    sumap += valorletra(letra) * (float)(cred - '0');
                     sumac += (float)(cred - '0');
                 }
             }
         }
     }
 
-    return  suman / sumac;
+    return  sumap / sumac;
 }
