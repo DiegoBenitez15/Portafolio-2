@@ -1,0 +1,1013 @@
+<html class="pc chrome win psc_dir-ltr psc_mode-md psc_form-xlarge gr__micampus_pucmm_edu_do" dir="ltr" lang="es"><!-- Copyright (c) 2000, 2017, Oracle and/or its affiliates. All rights reserved. --><head>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width,user-scalable=yes,initial-scale=1.0,minimum-scale=1.0">
+<script language="JavaScript">
+var  totalTimeoutMilliseconds = 3600000;
+var  warningTimeoutMilliseconds = 3600000;
+var timeOutURL = 'https://micampus.pucmm.edu.do/psp/cs92pro_10/EMPLOYEE/SA/?cmd=expire';
+var timeoutWarningPageURL = 'https://micampus.pucmm.edu.do/psc/cs92pro_10/EMPLOYEE/SA/s/WEBLIB_TIMEOUT.PT_TIMEOUTWARNING.FieldFormula.IScript_TIMEOUTWARNING';
+var sRCRequestURL = 'https://micampus.pucmm.edu.do/psc/cs92pro_10/EMPLOYEE/SA/s/WEBLIB_PTRC.ISCRIPT1.FieldFormula.IScript_RC_REQUEST';
+</script>
+
+<link rel="apple-touch-icon" href="/cs/cs92pro/cache/LOGO_FAVICON_ESP_1.png">
+<link rel="icon" href="/cs/cs92pro/cache/LOGO_FAVICON_ESP_1.png">
+<link id="PSSTYLEDEF_FMODE_ESP_1_css" rel="stylesheet" type="text/css" href="/cs/cs92pro/cache/PSSTYLEDEF_FMODE_ESP_1.css">
+
+
+
+<title>Historial Cursos</title>
+<script language="JavaScript">
+try {
+document.domain = "pucmm.edu.do";
+}
+catch(err) {;}
+</script>
+<script language="JavaScript">
+var winName='win10';
+var winParent = null;
+var modalID = null;
+var modalZoomName = null;
+var baseKey_win10 = "\x1b";
+var altKey_win10 = "0J5678\xbc\xbe\xbf\xde34";
+var ctrlKey_win10 = "JK";
+var saveWarningKeys_win10 = "A3;A4;";
+var firstFocusID = null;
+var sMDWrapperStyle='', sMDSide1Style='', sMDSide2Style='', sMDHeaderStyle='', sMDFooterStyle='';
+var refererURL = 'https://micampus.pucmm.edu.do/psc/cs92pro_5/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?';
+var isNewSaveWarn = true;
+var bAccessibility_win10 =false;
+var bFMode =true;
+var bDoModal_win10 = false;
+var bJSModal_win10 = false;
+var bPromptPage_win10 = false;
+var bTabOverTB_win10 = false;
+var bTabOverPg_win10 = false;
+var bTabOverNonPS_win10 = false;
+var strCurrUrl='https://micampus.pucmm.edu.do/psp/cs92pro_10/EMPLOYEE/SA/c/SSR_STUDENT_ACAD_REC_FL.SSR_MD_ACAD_REC_FL.GBL?PAGE=SCC_MD_TGT_PAGE_FL';
+var strReqURL='';
+var bIncInNavigation='T';
+var szPinCrefID='CS_SSR_MD_ACAD_REC_FL_GBL';
+var szPinCrefReg='T';
+var szPinCrefLabel='Registros Académicos MD';
+var szCrefID='CS_SSR_MD_ACAD_REC_FL_GBL';
+var szCrefReged='T';
+var szCrefVisible='F';
+var szCrefLabel='Registros Académicos MD';
+var szCrefUsageType='TARG';
+var localNodes = ['PSFT_CS', 'SA'];
+var remoteUrls = [];
+bGenDomInfo = false;
+var szCalendarType = 'G';
+var bMenuSrchPage = false;
+var bGuidedAG = false;
+var bWSRP=0;var szMenuSrchText = "-999999-";
+var disablePNSubscriptions=1;var modalBackUrl = '/cs/cs92pro/cache/PT_NUI_BACK_SMALL_IMG_ESP_1.svg';
+var modalBackAlt = 'Volver';
+var sPopupTitle = 'Ventana Emergente';
+var modalCloseUrl = '/cs/cs92pro/cache/PT_MODAL_CLOSE_NUI_ESP_1.svg';
+var modalCloseAlt = 'Cerrar';
+var modalResizeUrl= '/cs/cs92pro/cache/PT_RESIZE_IMG_ESP_1.gif';
+var modalResizeAlt = 'Arrastre p/redimens';
+var modalMoveAlt = 'Arrastre p/mover';
+</script>
+<script language="JavaScript">
+var scrollFieldList = [['win10hdrdivPT_ACTION_MENUgrp',1, 0, 0, 0,0, 1,0,0, 1]];
+</script>
+<script language="JavaScript">
+var agGroupletList = [];var groupletList = [];agGroupletList = [['win10sidegroupletSCC_LO_FL_WRK_SCC_GROUP_BOX_5','5','https://micampus.pucmm.edu.do/psc/cs92pro_newwin/EMPLOYEE/SA/c/SSR_STUDENT_ACAD_REC_FL.SSR_ACADREC_NAV_FL.GBL?Page=SCC_START_PAGE_FL&Action=U&scname=CS_SSR_ACADEMIC_RECORDS_FL&MD=Y&ICDoModal=1&ICGrouplet=1&ICLoc=1','','0','bGrouplet@1;','','0','','','','0']];
+</script>
+<script language="JavaScript">
+try {
+document.domain = "pucmm.edu.do";
+}
+catch(err) {;}
+</script>
+<script language="JavaScript" type="text/javascript" src="/cs/cs92pro/cache/PT_COMMON_FMODE_ESP_MIN_1.js">
+</script>
+<script language="JavaScript" type="text/javascript" src="/cs/cs92pro/cache/PT_AJAX_NET_ESP_MIN_1.js">
+</script>
+<script language="JavaScript" type="text/javascript" src="/cs/cs92pro/cache/PT_SAVEWARNINGSCRIPT_ESP_MIN_1.js">
+</script>
+<script language="JavaScript" type="text/javascript" src="/cs/cs92pro/cache/PT_PAGESCRIPT_ESP_win10_MIN_1.js">
+</script>
+<script language="JavaScript" type="text/javascript" src="/cs/cs92pro/cache/PT_EDITSCRIPT_ESP_win10_MIN_1.js">
+</script>
+<script language="JavaScript" type="text/javascript" src="/cs/cs92pro/cache/PT_PAGESCRIPT_FMODE_ESP_MIN_1.js">
+</script>
+<script language="JavaScript" type="text/javascript" src="/cs/cs92pro/cache/PT_TYPEAHEAD_ESP_win10_MIN_1.js">
+</script>
+<script language="JavaScript">
+DoUrlNUI();
+var nResubmit=0;
+var nLastAction=0;
+var loader=null;
+if (typeof(bCleanHtml) == 'undefined')
+	var bCleanHtml = false;
+setupTimeout2();
+var postUrl_win10='https://micampus.pucmm.edu.do/psc/cs92pro_10/EMPLOYEE/SA/c/SSR_STUDENT_ACAD_REC_FL.SSR_MD_ACAD_REC_FL.GBL';
+function aAction_win10(form, id, params, bAjax, bPrompt, sAjaxTrfUrl, bWarning, sScriptAfter, nTrfURLType)
+{
+setupTimeout2();
+if ((id != '#ICSave'))
+processing_win10(1,3000);
+aAction0_win10(form, id, params, bAjax, bPrompt, sAjaxTrfUrl, bWarning, sScriptAfter, nTrfURLType);
+}
+function submitAction_win10(form, id, event, sAjaxTrfUrl, bWarning, sScriptAfter, nTrfURLType)
+{
+setupTimeout2();
+if (!ptCommonObj2.isICQryDownload(form, id))
+ { processing_win10(1,3000); }
+preSubmitProcess_win10(form, id);
+var spellcheckpos = id.indexOf('$spellcheck');
+if ((spellcheckpos != -1) && (id.indexOf('#KEYA5') != -1))
+	form.ICAction.value = id.substring(0,spellcheckpos);
+else
+	form.ICAction.value=id;
+var actionName = form.ICAction.value;
+form.ICXPos.value=ptCommonObj2.getScrollX();
+form.ICYPos.value=ptCommonObj2.getScrollY();
+bcUpdater.storeBcDomData();
+if ((typeof(bAutoSave) != 'undefined') && bAutoSave)
+	form.ICAutoSave.value = '1';
+if (!ptCommonObj2.isAJAXReq(form, id) && !ptCommonObj2.isPromptReq(id)){
+if (nLastAction == 1 && nResubmit > 0) return;
+form.ICResubmit.value=nResubmit;
+form.submit();
+if (!ptCommonObj2.isICQryDownload(form, id))
+	nResubmit++;
+}
+else if (ptCommonObj2.isPromptReq(id))
+	pAction_win10(form, id, arguments[2]);
+else
+	aAction_win10(form, actionName, null, true, false, sAjaxTrfUrl, bWarning, sScriptAfter, nTrfURLType);
+cancelBubble(event);
+}
+</script>
+<script language="JavaScript" type="text/javascript" src="/cs/cs92pro/cache/PTMAF_PUSH_JS_ESP_MIN_1.js">
+</script>
+<script language="JavaScript" type="text/javascript" src="/cs/cs92pro/cache/PTNUI_PINTO_JS_ESP_win10_MIN_1.js">
+</script>
+<script language="JavaScript" type="text/javascript" src="/cs/cs92pro/cache/PTPN_NOTIFICATION_MSG_JS_ESP_win10_MIN_1.js">
+</script>
+<script language="javascript">
+var pt_calHeadstyle=" class='PTCALHEAD' "
+var pt_calWeekHeadstyle=" class='PTCALWEEKHEAD' "
+function dateitemrefs()
+{
+this.pt_dateheader = "/cs/cs92pro/cache/PT_PORTAL_IC_CLOSE_SD_CSS_ESP_1.gif";
+this.pt_datering = "/cs/cs92pro/cache/PT_CURRENT_DATE_SD_CSS_ESP_1.gif";
+this.pt_datesel = "/cs/cs92pro/cache/PT_SELECTED_DATE_SD_CSS_ESP_1.gif";
+this.pt_nextmonth = "/cs/cs92pro/cache/PT_RIGHT_SCROLL_SD_CSS_ESP_1.gif";
+this.pt_prevmonth= "/cs/cs92pro/cache/PT_LEFT_SCROLL_SD_CSS_ESP_1.gif";
+this.pt_daystitle_hijri = "/cs/cs92pro/cache/PT_DATE_TITLE_S6_ESP_1.gif";
+this.pt_daystitle_thai = "/cs/cs92pro/cache/PT_DATE_TITLE_S0_ESP_1.gif";
+this.pt_daystitle_s0 = "/cs/cs92pro/cache/PT_DATE_TITLE_S0_ESP_1.gif";
+this.pt_daystitle_m1 = "/cs/cs92pro/cache/PT_DATE_TITLE_M1_ESP_1.gif";
+this.pt_daystitle_t2 = "/cs/cs92pro/cache/PT_DATE_TITLE_T2_ESP_1.gif";
+this.pt_daystitle_w3 = "/cs/cs92pro/cache/PT_DATE_TITLE_W3_ESP_1.gif";
+this.pt_daystitle_t4 = "/cs/cs92pro/cache/PT_DATE_TITLE_T4_ESP_1.gif";
+this.pt_daystitle_f5 = "/cs/cs92pro/cache/PT_DATE_TITLE_F5_ESP_1.gif";
+this.pt_daystitle_s6 = "/cs/cs92pro/cache/PT_DATE_TITLE_S6_ESP_1.gif";
+}
+
+function LoadCalendar()
+{
+var dateitems = new dateitemrefs();
+loadImages(dateitems);
+}
+function DatePrompt0_win10(dtfield,promptfield,yrfmt,bsubmit)
+{
+setupTimeout2();
+openDate_win10(dtfield, promptfield, "DMY/"+yrfmt,bsubmit,"G",0);
+}
+</script>
+<script language="JavaScript" ptdefer="defer">
+var bInModal = false;
+function onLoadExt_win10() {
+modalZoomName = null;
+var oWin=window;
+var oDoc=document;
+ptTAObj_win10.init(oWin,oDoc,oDoc.win10,'/cs/cs92pro/cache/PT_SRT2UP_SEL_ESP_1.gif','/cs/cs92pro/cache/PT_SRT2DN_SEL_ESP_1.gif','/cs/cs92pro/cache/PT_PORTAL_IC_CLOSE_ESP_1.gif',500);
+var pt_pageinfo = document.getElementById('pt_pageinfo');
+var pt_wrapper = document.getElementById('PT_WRAPPER');
+if (pt_wrapper) {pt_wrapper.setAttribute('class','ps_wrapper  pst_side2-disabled pst_side1-fixed pst_panel-mode ');
+addClass(pt_wrapper,sMDWrapperStyle);
+removeClass(pt_wrapper,'pst_side1-disabled');
+addClass(pt_wrapper,'pst_side2-disabled');
+}sMDWrapperStyle = ' pst_side2-disabled pst_side1-fixed pst_panel-mode '
+var objPanelControlStyle = document.getElementById('ICPanelControlStyle');
+if (objPanelControlStyle) objPanelControlStyle.value='pst_side2-disabled pst_side1-fixed pst_panel-mode ';
+if (pt_pageinfo) {
+pt_pageinfo.setAttribute('Page', 'SCC_MD_TGT_PAGE_FL');
+pt_pageinfo.setAttribute('Component', 'SSR_MD_ACAD_REC_FL');
+pt_pageinfo.setAttribute('Menu', 'SSR_STUDENT_ACAD_REC_FL');
+pt_pageinfo.setAttribute('Mode', 'FLUID');
+}
+initWorkers('/cs/cs92pro/cache/PT_WORKER_ESP_MIN_1.js',5);
+g_bAccessibilityMode=false;
+var actn='';
+setKeyEventHandler_win10();setMouseEventHandler();
+ptEvent.add(window,'scroll',positionWAIT_win10);objToBeFocus = null;
+if (typeof oWin == 'undefined') setEventHandlers_win10('ICFirstAnchor_win10', 'ICLastAnchor_win10', false);
+ else
+ oWin.setEventHandlers_win10('ICFirstAnchor_win10', 'ICLastAnchor_win10', false);
+try{
+portalContextNodeURI = 'https://micampus.pucmm.edu.do/psc/cs92pro_10/EMPLOYEE/SA';
+PnWindowSubscribe();
+PTNotifyWin.Url = 'https://micampus.pucmm.edu.do/psc/cs92pro_newwin/EMPLOYEE/SA/c/PTPNEVENTS.PTPN_POPUP_WINDOW.GBL?ICDoModelessIframe=1';
+SearchPageClose();
+}catch(e) { if(typeof String !="undefined") alert('custom javascript error '+e)}
+if (top.window.isFModeLayout() && (typeof top.window.initHelp == 'function')) top.window.initHelp();
+postUrl_win10='https://micampus.pucmm.edu.do/psc/cs92pro_10/EMPLOYEE/SA/c/SSR_STUDENT_ACAD_REC_FL.SSR_MD_ACAD_REC_FL.GBL';
+if (typeof(initScrolls0) != 'undefined' && initScrolls0 != null) initScrolls0(false);
+loadGrouplets('/cs/cs92pro/cache/PT_WORKER_ESP_MIN_1.js',5);
+ptLoadingStatus_empty(0);
+setupTimeout2();
+processing_win10(0,3000);
+ptConsole2.enable();
+}
+try{ptEvent.load(onLoadExt_win10);}catch(e){}
+</script><link id="SCC_PANEL_FL_ESP_1_css" rel="stylesheet" type="text/css" href="https://micampus.pucmm.edu.do/cs/cs92pro/cache/SCC_PANEL_FL_ESP_1.css"><link id="SCC_SIDE_PAGE_FL_ESP_1_css" rel="stylesheet" type="text/css" href="https://micampus.pucmm.edu.do/cs/cs92pro/cache/SCC_SIDE_PAGE_FL_ESP_1.css"><script id="SCC_NAVIGATION_JS_ESP_MIN_1_js" type="text/javascript" src="https://micampus.pucmm.edu.do/cs/cs92pro/cache/SCC_NAVIGATION_JS_ESP_MIN_1.js"></script><link id="SSR_ACAD_REC_FL_ESP_1_css" rel="stylesheet" type="text/css" href="/cs/cs92pro/cache/SSR_ACAD_REC_FL_ESP_1.css" pttarget="css"><link id="PTNUI_PINTO_CSS_ESP_1_css" rel="stylesheet" type="text/css" href="/cs/cs92pro/cache/PTNUI_PINTO_CSS_ESP_1.css" pttarget="css"><link id="PTPN_NOTIFYWIN_CSS_ESP_1_css" rel="stylesheet" type="text/css" href="/cs/cs92pro/cache/PTPN_NOTIFYWIN_CSS_ESP_1.css" pttarget="css"><link id="PTNUI_NAVBAR_CSS_ESP_1_css" rel="stylesheet" type="text/css" href="/cs/cs92pro/cache/PTNUI_NAVBAR_CSS_ESP_1.css" pttarget="css"><link id="PTS_NUI_FFSTYLE_ESP_1_css" rel="stylesheet" type="text/css" href="/cs/cs92pro/cache/PTS_NUI_FFSTYLE_ESP_1.css" pttarget="css"><link id="PTNUI_LIST_CSS_ESP_1_css" rel="stylesheet" type="text/css" href="/cs/cs92pro/cache/PTNUI_LIST_CSS_ESP_1.css" pttarget="css"><link id="PS_CHART_DVT_NUI_ESP_1_css" rel="stylesheet" type="text/css" href="/cs/cs92pro/cache/PS_CHART_DVT_NUI_ESP_1.css" pttarget="css"><script id="PT_CHART_LOAD_ESP_win10_MIN_1_js" type="text/javascript" src="/cs/cs92pro/cache/PT_CHART_LOAD_ESP_win10_MIN_1.js" pttarget="js"></script><script id="PS_CHART_DVT_JS_ESP_MIN_1_js" type="text/javascript" src="/cs/cs92pro/cache/PS_CHART_DVT_JS_ESP_MIN_1.js" pttarget="js"></script></head>
+<body tabindex="-1" data-gr-c-s-loaded="true">
+<div id="pt_envinfo" devicetype="pc" browser="CHROME/78.0/WIN10"></div>
+<div id="pt_pageinfo" page="SSR_CRSE_HIST_FL" component="SSR_CRSE_HIST_FL" menu="SSR_STUDENT_ACAD_REC_FL" mode="FLUID"><!----></div>
+<form id="SSR_MD_ACAD_REC_FL" name="win10" method="post" action="https://micampus.pucmm.edu.do/psc/cs92pro_10/EMPLOYEE/SA/c/SSR_STUDENT_ACAD_REC_FL.SSR_CRSE_HIST_FL.GBL?Page=SSR_CRSE_HIST_FL&amp;pslnkid=CS_S201605051911149930439391&amp;ICAJAX=1&amp;ICMDTarget=start" autocomplete="off" class="PSForm">
+<div class="ps_box-toolshiddens" id="win10divPSTOOLSHIDDENS"><div class="ps_modalmask_cover psc_hidden" id="pt_modalMaskCover">&nbsp;</div><div class="ps_modalmask psc_hidden" id="pt_modalMask">&nbsp;</div><div id="pt_modals" class="ps_modal_controller"><div id="ptModalShadow" class="popupDragFrame" style="cursor:nw-resize">&nbsp;</div></div>
+<div class="ps_ajax_console psc_hidden" id="pt_console"><input type="button" id="COPYCONSOLE" value="Copy" onclick="ptConsole2.copy();" alt="copy to clipboard" title="copy to clipboard"><input type="button" id="CLEARCONSOLE" onclick="ptConsole2.clear();" value="Clear" alt="clear console" title="clear console"><input type="button" id="HIDECONSOLE" onclick="ptConsole2.hide();" value="Hide" alt="hide console" title="hide console"><input type="button" id="CLOSECONSOLE" onclick="ptConsole2.deactive();" value="Close" alt="close console" title="close console"></div><div class="ps_typeahead psc_hidden" id="pt_typeahead0" style="display: none;"><div id="pt_typeahead" class="ps_box-typeahead">&nbsp;</div></div><div class="ps_box-announce ps_alert-normal" aria-live="polite" aria-hidden="true" id="pt_liveregion"></div>
+<div class="ps_box-group psc_layout psc_skipnav_container psc_hidden" id="PT_SKIPNAV_CONT">
+<div class="ps_box-link psc_skipnav"><span class="ps-link-wrapper"><a class="ps-link" id="PT_SKIPNAV" onclick="javascript:cancelBubble(event);" href="javascript:SetMainConentFocus();" onblur="javascript:SetMainConentFocus(false);">Saltar a Contenido Principal</a></span></div>
+</div>
+<div class="psc_processing psc_hidden" id="WAIT_win10" style="visibility: hidden; display: none; right: 0px;"><img id="processing" src="/cs/cs92pro/cache/PT_PROCESSING_FMODE_ESP_1.gif" alt="Procesando..." title="Procesando..."></div>
+ <div style="visibility:hidden; display:none; position:absolute;left:-10000px;top:auto; width:1px; height:1px;overflow:hidden;" aria-relevant="text additions" aria-live="assertive" aria-atomic="true" class="psc_processing psc_hidden" id="Delayed_win10">&nbsp;</div><div class="psc_saved psc_hidden" id="SAVED_win10" style="visibility: hidden; display: none;"><div><div id="saveWait_win10"><img src="/cs/cs92pro/cache/PT_LOADER_ESP_1.gif" width="24" height="24" alt=""></div><div class="ps_saved_text"><span id="ptStatusText_win10">&nbsp;</span></div></div></div><div class="x" id="win10divPSHIDDENFIELDS" style="display:none"><input type="hidden" name="ICType" id="ICType" value="Panel">
+<input type="hidden" name="ICElementNum" id="ICElementNum" value="10">
+<input type="hidden" name="ICStateNum" id="ICStateNum" value="2">
+<input type="hidden" name="ICAction" id="ICAction" value="None">
+<input type="hidden" name="ICModelCancel" id="ICModelCancel" value="0">
+<input type="hidden" name="ICXPos" id="ICXPos" value="0">
+<input type="hidden" name="ICYPos" id="ICYPos" value="0">
+<input type="hidden" name="ResponsetoDiffFrame" id="ResponsetoDiffFrame" value="-1">
+<input type="hidden" name="TargetFrameName" id="TargetFrameName" value="None">
+<input type="hidden" name="FacetPath" id="FacetPath" value="None">
+<input type="hidden" name="ICFocus" id="ICFocus" value="">
+<input type="hidden" name="ICSaveWarningFilter" id="ICSaveWarningFilter" value="0">
+<input type="hidden" name="ICChanged" id="ICChanged" value="0">
+<input type="hidden" name="ICSkipPending" id="ICSkipPending" value="0">
+<input type="hidden" name="ICAutoSave" id="ICAutoSave" value="0">
+<input type="hidden" name="ICResubmit" id="ICResubmit" value="0">
+<input type="hidden" name="ICSID" id="ICSID" value="tuDA1IdNkV+9Us/pC+rYLMWwyPA2KxFZ5pSylXRl9HY=">
+<input type="hidden" name="ICActionPrompt" id="ICActionPrompt" value="false">
+<input type="hidden" name="ICTypeAheadID" id="ICTypeAheadID" value="">
+<input type="hidden" name="ICBcDomData" id="ICBcDomData" value="">
+<input type="hidden" name="ICDNDSrc" id="ICDNDSrc" value="">
+<input type="hidden" name="ICPanelHelpUrl" id="ICPanelHelpUrl" value="https://micampus.pucmm.edu.do/pt856pbr1/help.html?ContextID=SSR_CRSE_HIST_FL&amp;LangCD=ESP">
+<input type="hidden" name="ICPanelName" id="ICPanelName" value="">
+<input type="hidden" name="ICPanelControlStyle" id="ICPanelControlStyle" value=" pst_side1-fixed pst_panel-mode pst_side2-disabled pst_side2-hidden">
+<input type="hidden" name="ICFind" id="ICFind" value="">
+<input type="hidden" name="ICAddCount" id="ICAddCount" value="">
+<input type="hidden" name="ICAppClsData" id="ICAppClsData" value="">
+</div>
+</div>
+<a class="ps-anchor" id="ICFirstAnchor_win10"></a>
+<div id="PT_WRAPPER" class="ps_wrapper pst_side1-fixed pst_panel-mode pst_side2-hidden">
+<div class="ps_header" id="PT_HEADER">
+<div class="ps_header_panel" id="PT_HEADER_PANEL"><div class="ps_pspagecontainer_hdr" id="win10divPSPAGECONTAINER_HDR">
+<div class="ps_box-group psc_layout" id="win10hdrdivPTLAYOUT_HEADER_GROUPBOX0"><div class="ps_box-edit psc_disabled psc_has_value psc_force-hidden" id="win10hdrdivICSCRIPTSID"><div class="ps_box-label" id="win10hdrdivICSCRIPTSIDlbl"><span class="ps-label">&nbsp;</span></div><span class="ps_box-value" id="ICSCRIPTSID">grC9NfTeBtiNeV4W1%2f2x3eUX54Y%3d</span>
+</div><div role="banner" class=" ps_header_bar" id="win10hdrdivPTLAYOUT_HEADER_GROUPBOX1"><div class=" ps_back_cont" id="win10hdrdivPT_NAV_CONT"><div class=" ps_system_cont" id="win10hdrdivPTLAYOUT_HEADER_GROUPBOX4"><div class="ps_box-button ps_button_backnav psc_toolaction-back psc_header-all" id="win10hdrdivPT_WORK_PT_BUTTON_BACK"><span class="ps-button-wrapper" title="Atrás"><a id="PT_WORK_PT_BUTTON_BACK" class="ps-button" role="button" href="javascript:DoBack('win10')" onclick="javascript:cancelBubble(event);"><img src="/cs/cs92pro/cache/PT_NUI_BACK_PRIM_IMG_ESP_1.svg" name="PT_WORK_PT_BUTTON_BACK$IMG" class="ps-img" alt=""><span class="ps-text">Alumnos</span></a></span>
+</div><div class="ps_box-group psc_layout" id="win10hdrdiv$ICField69"></div></div><div class=" ps_custom_cont" id="win10hdrdivPT_CUSTOM_LEFT"></div></div><div class=" ps_pagetitle_cont" id="win10hdrdivPT_TITLE_CONT"><div class=" ps_system_cont" id="win10hdrdivPT_PAGETITLE"><h1 id="PT_PAGETITLE" class="ps_pagetitle"><span class="ps-text" id="PT_PAGETITLElbl">Historial de Cursos</span></h1></div><div class=" ps_custom_cont" id="win10hdrdivPT_CUSTOM_MIDDLE"></div></div><div class=" ps_actions_cont" id="win10hdrdivPT_ACTION_CONT"><div class=" ps_custom_cont " id="win10hdrdivPT_CUSTOM_RIGHT"></div><div class=" ps_system_cont" id="win10hdrdivPTLAYOUT_HEADER_GROUPBOX6"><div class="ps_box-button psc_image_only psc_toolaction-home ps_header_button ps_header-home psc_hide-BP2" id="win10hdrdivPT_HOME"><span class="ps-button-wrapper" title="Inicio"><a id="PT_HOME" class="ps-button" role="button" href="javascript:DoHome('https://micampus.pucmm.edu.do/psc/cs92pro_10/EMPLOYEE/SA/s/WEBLIB_PTBR.ISCRIPT1.FieldFormula.IScript_StartPage')" onclick="javascript:cancelBubble(event);"><img src="/cs/cs92pro/cache/PT_HEADER_HOME_ESP_1.svg" name="PT_HOME$IMG" class="ps-img" alt="Inicio"></a></span>
+</div><div class="ps_box-group psc_layout ps_header_button ps_search-custom psc_hide-BP3" id="win10hdrdivPT_CUSTOM_SEARCH"></div><div class="ps_box-button ps_header_button ps_header-notify psc_badge-text psc_header-all psc_badge-hide" id="win10hdrdivPT_NOTIFY"><span class="ps-button-wrapper" title="Notificaciones"><a id="PT_NOTIFY" class="ps-button psc_badge-hide" href="javascript:DoNotify();" role="button" onclick="javascript:cancelBubble(event);" aria-live="assertive"><img src="/cs/cs92pro/cache/PT_HEADER_ALERTS_ESP_1.svg" name="PT_NOTIFY$IMG" class="ps-img" alt=""><span class="ps-text">Notificaciones</span></a></span>
+</div><div class=" ps_header_button psc_header-all" id="win10hdrdiv$ICField54"><div class="ps_box-group psc_has_popup ps_box-button  psc_menu-act  ps_header_button psc_header-all psc_image_only" id="win10hdrdivPT_ACTION_MENU"><span class="ps-button-wrapper" title="Lista Acciones"><a class="ps-button" role="button" id="PT_ACTION_MENU$PIMG" onclick="javascript:cancelBubble(event);" href="javascript:submitAction_win10(document.win10,'PT_ACTION_MENU');"><span class="ps-text">Lista Acciones</span><img class="ps-img" src="/cs/cs92pro/cache/PT_HEADER_ACTIONS_ESP_1.svg" alt=""></a></span><div class="psc_hidden" options="sPopupParentId@PT_ACTION_MENU$PIMG;bPIA@1;bPopup@1;bMask@0;bClose@1;bHeader@1;bCache@1;sStyle@ps_popup-menu ps_menutype-act;sTitle@Emergente Lista Acciones;bAutoClose@1;bMask@1;sMaskStyle@ps_masktrans;bVertical@1;bHeader@0;" id="PT_ACTION_MENU$divpop"><div class="ps_content-group ps_scrollable ps_scrollable_v sbar sbar_v" id="win10hdrdivPT_ACTION_MENUgrp" onscroll="doScroll(this, false);">
+<ul class="ps_box-group ps_menucontainer" id="win10hdrdiv$ICField13"><li role="presentation" class=" ps_custom_action ps_menusection " id="win10hdrdivPT_CUSTOM_ACTION"></li><li role="presentation" class="  ps_search_action ps_menusection " id="win10hdrdivPT_SEARCH_ACTION"></li><li role="presentation" class=" ps_ag_action ps_menusection " id="win10hdrdivPT_ACTGUIDE_ACTION"></li><li role="presentation" class="ps_box-group psc_layout ps_system_action ps_menusection" id="win10hdrdivPT_SYSTEM_ACTION"><ul role="presentation" class="ps_box-group psc_layout" id="win10hdrdivPT_SYSACT_CONT"><li role="listitem" class="ps_box-group psc_layout ps_header-previous ps_menuitem psc_hidden" id="win10hdrdivPT_SYSACT_PRVLST"><div class="ps_box-link psc_toolaction-previnlist" id="win10hdrdivPT_PREVINLIST"><span id="PT_PREVINLIST$span" class="ps-link-wrapper"><a id="PT_PREVINLIST" class="ps-link" ptlinktgt="pt_replace" href="javascript:DoPrevInList(this)" onclick="javascript:cancelBubble(event);">Anterior en Lista</a></span>
+</div></li><li role="listitem" class="ps_box-group psc_layout ps_header-next ps_menuitem " id="win10hdrdivPT_SYSACT_NXTLST" aria-hidden="false" ps_state=""><div class="ps_box-link psc_toolaction-nextinlist" id="win10hdrdivPT_NEXTINLIST"><span id="PT_NEXTINLIST$span" class="ps-link-wrapper"><a id="PT_NEXTINLIST" class="ps-link" ptlinktgt="pt_replace" href="javascript:DoNextInList(this)" onclick="javascript:cancelBubble(event);">Siguiente en Lista</a></span>
+</div></li><li role="listitem" class="ps_box-group psc_layout ps_header-retlist ps_menuitem psc_hidden" id="win10hdrdivPT_SYSACT_RETLST"></li><li role="listitem" class="ps_box-group psc_layout ps_header-notify ps_menuitem " id="win10hdrdivPT_SYSACT_NOTIFY"><div class="ps_box-link psc_badge-hide" id="win10hdrdivPT_NOTIFY_MENU"><span id="PT_NOTIFY_MENU$span" class="ps-link-wrapper"><a id="PT_NOTIFY_MENU" class="ps-link" href="javascript:DoNotify();" ptlinktgt="pt_peoplecode" onclick="javascript:cancelBubble(event);">Notificaciones</a></span>
+</div><div class="ps_box-text ps_notify-badge psc_value-badge" id="win10hdrdivPT_NOTIFY_BADGE"><span class="ps-text">&nbsp;</span>
+</div></li><li role="listitem" class="ps_box-group psc_layout ps_header-home ps_menuitem psc_show-BP2" id="win10hdrdivPT_SYSACT_HOME"><div class="ps_box-link psc_toolaction-home" id="win10hdrdivPT_HOME_MENU"><span id="PT_HOME_MENU$span" class="ps-link-wrapper"><a id="PT_HOME_MENU" class="ps-link" ptlinktgt="pt_replace" href="javascript:DoHome('https://micampus.pucmm.edu.do/psc/cs92pro_10/EMPLOYEE/SA/s/WEBLIB_PTBR.ISCRIPT1.FieldFormula.IScript_StartPage')" onclick="javascript:cancelBubble(event);">Inicio</a></span>
+</div></li><li role="listitem" class="ps_box-group psc_layout ps_header-gsearch ps_menuitem psc_show-BP3" id="win10hdrdivPT_SYSACT_GBLSRCH"></li><li role="listitem" class="ps_box-group psc_layout ps_header-addhp ps_menuitem" id="win10hdrdivPT_SYSACT_ADDHP"><div class="ps_box-link" id="win10hdrdivPT_ADDHP_MENU"><span id="PT_ADDHP_MENU$span" class="ps-link-wrapper"><a id="PT_ADDHP_MENU" class="ps-link" href="javascript:PTPinTo.SavePin('LP');" ptlinktgt="pt_peoplecode" onclick="javascript:cancelBubble(event);">Añadir a Página Inicial</a></span>
+</div></li><li role="listitem" class="ps_box-group psc_layout ps_header-addnb ps_menuitem" id="win10hdrdivPT_SYSACT_ADDNB"><div class="ps_box-link" id="win10hdrdivPT_ADDNB_MENU"><span id="PT_ADDNB_MENU$span" class="ps-link-wrapper"><a id="PT_ADDNB_MENU" class="ps-link" href="javascript:PTPinTo.SavePin('NB');" ptlinktgt="pt_peoplecode" onclick="javascript:cancelBubble(event);">Añadir a NavBar</a></span>
+</div></li><li role="listitem" class="ps_box-group psc_layout ps_header-addfav ps_menuitem" id="win10hdrdivPT_SYSACT_ADDFAV"><div class="ps_box-link" id="win10hdrdivPT_ADDFAV_MENU"><span id="PT_ADDFAV_MENU$span" class="ps-link-wrapper"><a id="PT_ADDFAV_MENU" class="ps-link" href="javascript:PTPinTo.SavePin('FAV');" ptlinktgt="pt_peoplecode" onclick="javascript:cancelBubble(event);">Añadir a Favoritos</a></span>
+</div></li><li role="listitem" class="ps_box-group psc_layout ps_header-navbar ps_menuitem psc_show-BP4" id="win10hdrdivPT_SYSACT_NAVBAR"><div class="ps_box-link psc_toolaction-navbar" id="win10hdrdivPT_NAVBAR_MENU"><span id="PT_NAVBAR_MENU$span" class="ps-link-wrapper"><a id="PT_NAVBAR_MENU" class="ps-link" onclick="javascript:cancelBubble(event);" href="javascript:DoNavBar(&quot;https://micampus.pucmm.edu.do/psc/cs92pro_newwin/EMPLOYEE/SA/c/NUI_FRAMEWORK.PTNUI_NAVBAR.GBL?ICDoModelessIframe=1&quot;);" ptlinktgt="pt_replace">NavBar</a></span>
+</div></li><li role="listitem" class="ps_box-group psc_layout ps_header-mcfconsole ps_menuitem" id="win10hdrdivPT_SYSACT_MCF"></li><li role="listitem" class="ps_box-group psc_layout ps_header-mypref ps_menuitem" id="win10hdrdivPT_SYSACT_MYPREF"><div class="ps_box-link" id="win10hdrdivPT_MY_PREFERENCES"><span id="PT_MY_PREFERENCES$span" class="ps-link-wrapper"><a id="PT_MY_PREFERENCES" class="ps-link" href="javascript:DoURLWarning('https://micampus.pucmm.edu.do/psc/cs92pro_10/EMPLOYEE/SA/c/PTGP_MENU.PTGP_USERPREF_FL.GBL?CONTEXTIDPARAMS=PSFT_CS---SSR_CRSE_HIST_FL')" ptlinktgt="pt_peoplecode" onclick="javascript:cancelBubble(event);">Mis Preferencias</a></span>
+</div></li><li role="listitem" class="ps_box-group psc_layout ps_header-help ps_menuitem" id="win10hdrdivPT_SYSACT_HELP" aria-hidden="false" ps_state=""><div class="ps_box-link psc_toolaction-help" id="win10hdrdivPT_HELP_MENU"><span id="PT_HELP_MENU$span" class="ps-link-wrapper"><a id="PT_HELP_MENU" class="ps-link" ptlinktgt="pt_replace" href="javascript:DoHelp('Ayuda en Línea PeopleSoft')" onclick="javascript:cancelBubble(event);">Ayuda</a></span>
+</div></li><li role="listitem" class="ps_box-group psc_layout ps_header-logout ps_menuitem" id="win10hdrdivPT_SYSACT_LOGOUT"><div class="ps_box-link psc_toolaction-logout" id="win10hdrdivPT_LOGOUT_MENU"><span id="PT_LOGOUT_MENU$span" class="ps-link-wrapper"><a id="PT_LOGOUT_MENU" class="ps-link" ptlinktgt="pt_replace" href="javascript:DoLogout('https://micampus.pucmm.edu.do/psp/cs92pro_10/EMPLOYEE/SA/?cmd=logout')" onclick="javascript:cancelBubble(event);">Desconexión</a></span>
+</div></li></ul></li></ul></div></div></div></div><div class="ps_box-button psc_image_only psc_toolaction-navbar ps_header_button hdrnbbtn ps_header-navbar psc_hide-BP4" id="win10hdrdivPT_NAVBAR"><span class="ps-button-wrapper" title="NavBar"><a id="PT_NAVBAR" class="ps-button" onclick="javascript:cancelBubble(event);" href="javascript:DoNavBar(&quot;https://micampus.pucmm.edu.do/psc/cs92pro_newwin/EMPLOYEE/SA/c/NUI_FRAMEWORK.PTNUI_NAVBAR.GBL?ICDoModelessIframe=1&quot;);" role="button"><img src="/cs/cs92pro/cache/PT_HEADER_NAVBAR_ESP_1.svg" name="PT_NAVBAR$IMG" class="ps-img" alt="NavBar"></a></span>
+</div></div></div></div><div class="ps_box-group psc_layout ps_header_confirmation" id="win10hdrdivPT_CONFIRM_CONT"><div role="alert" aria-live="assertive" class="ps_box-group psc_layout psc_confirmation-animate " id="win10hdrdivPT_CONFIRMATION"><div class="ps_box-group psc_layout psc_confirmation-area" id="win10hdrdivPT_CONFIRM_AREA"><div class="ps_box-longedit psc_disabled psc_wrappable psc_has_value psc_confirmation-msg" id="win10hdrdivPT_CONFIRM_MSG"><div class="ps_box-label" id="win10hdrdivPT_CONFIRM_MSGlbl"><span class="ps-label">&nbsp;</span></div><span class="ps_box-value" id="PT_CONFIRM_MSG">&nbsp;</span>
+</div><div class="ps_box-button psc_image_only psc_modal-close psc_confirmation-close" id="win10hdrdivPT_CONFIRM_CLOSE"><span class="ps-button-wrapper" title="Cerrar"><a id="PT_CONFIRM_CLOSE" class="ps-button" role="button" onclick="javascript:cancelBubble(event);" href="javascript:submitAction_win10(document.win10,'PT_CONFIRM_CLOSE');"><img src="/cs/cs92pro/cache/PT_MODAL_CLOSE_NUI_ESP_1.svg" name="PT_CONFIRM_CLOSE$IMG" class="ps-img" alt="Cerrar"></a></span>
+</div></div></div></div><div class="ps_box-group psc_layout ps_ag-processheader" id="win10hdrdivPT_AG_LAYOUT_PT_AG_GROUPBOX3"></div><div class=" ps_header_bar_custom" id="win10hdrdivPT_CUSTOM_BOTTOM"><div class="ps_box-group ps_hidden" id="win10divCS_CUSTOM_HEADER"><div class="ps_box-group psc_layout ps_apps_pageheader" id="win10div$ICField9"></div></div></div></div></div></div>
+
+</div>
+<div class="ps_search psc_close side" id="PT_SEARCH"></div>
+<div class="ps_box-pagetabs psc_hidden" id="win10divPSPANELTABS"></div>
+
+<div class="ps_mid_section" id="PT_MID_SECTION">
+<div class="pst_panel-side1" id="PT_SIDE"><div class="pst_panel-control" id="PT_SIDE0"><div class="pst_panel-tabcontainer" id="PT_SIDE$tab"><div class="ps_box-button psc_image_only pst_panel-button" id="PT_SIDE$tab$buttton"><span class="ps-button-wrapper" title="Registro Académico"><a class="ps-button" role="button" id="PT_SIDE$PIMG" onclick="javascript:cancelBubble(event);" href="javascript:toggleSideTab('PT_SIDE$PIMG',1);"><img class="ps-img" src="/cs/cs92pro/cache/PT_PANEL_TAB_ICON_ESP_1.svg" alt=""><span class="ps-text">Registro Académico</span></a></span></div></div><div class="pst_panel-content" id="PT_SIDE$content"><div class="pst_panel-side1-top" id="PT_SIDE_TOP0"><div class="ps_detail-group" id="PT_SIDE_TOP"><h2 class="ps_header-group psc_side1 psc_hidden"><a class="ps-link" id="PT_SIDE_TOP0$h"></a></h2><div class="ps_pspagecontainer_side_md" id="win10divPSPAGECONTAINER_SIDE_MD">
+<div class="ps_box-group psc_layout  psc_page-container" id="win10sidedivSCC_LO_FL_WRK_SCC_GROUP_BOX_6"><div class="ps_box-group psc_layout  ps_masterlist-group psc_page-container" id="win10sidedivSCC_LO_FL_WRK_SCC_GROUP_BOX_5" role="region"><div id="win10sidegroupletSCC_LO_FL_WRK_SCC_GROUP_BOX_5" class="ps_box-grouplet">
+
+
+<div onscroll="doScroll(this, false);" class="ps_box-group psc_layout ps_scrollable sbar sbar_v ps_scrollable_v" id="win11div$ICField1"><div class="ps_box-group psc_layout" id="win11divPAGETAB"><section role="navigation" aria-label="Seleccione un elemento de la lista para actualizar el panel de control y a continuación avance a la siguiente cabecera uno para acceder a la información." class=" psa_cs_navigation  psc_list-has-icon" id="win11divCS_NAVIGATION"><ul class="ps_box-scrollarea psa_list-linkmenu psc_list-has-icon psa_vtab" id="win11divSCC_NAV_TAB$0" role="menu"><li onclick="javascript:LaunchURL(null,'https://micampus.pucmm.edu.do/psc/cs92pro_newwin/EMPLOYEE/SA/c/SSR_STUDENT_ACAD_REC_FL.SSR_CRSE_HIST_FL.GBL?Page=SSR_CRSE_HIST_FL&amp;pslnkid=CS_S201605051911149930439391',7,'',this.id);cancelBubble(event);" aria-controls="divPAGECONTAINER_TGT" role="button" class="ps_box-scrollarea-row psc_rowact  psa_tab_SSR_CRSE_HIST_FL psc_selected" tabindex="0" id="win11divSCC_NAV_TAB_row$0" aria-selected="true" aria-current="page"><div tabindex="-1" class="ps_box-group psc_layout psa_vtab psc_rowact" id="win11divSCC_LO_FL_WRK_SCC_GROUP_BOX_1$0"><div class="ps_box-link psa_list-linkitem psa_tabimage-height" id="win11divSCC_LO_FL_WRK_SCC_VIEW_BTN$0"><span class="ps-link-wrapper" title="Historial de Cursos"><a id="SCC_LO_FL_WRK_SCC_VIEW_BTN$0" class="ps-link" href="javascript:void(0);" tabindex="-1"><span class="ps-text">Historial de Cursos</span><img src="https://micampus.pucmm.edu.do/cs/cs92pro/cache/PS_COURSE_HISTORY_M_FL_ESP_1.svg" name="SCC_LO_FL_WRK_SCC_VIEW_BTN$IMG$0" class="ps-img" alt=""></a></span>
+</div></div><div onclick="javascript:LaunchURL(null,'https://micampus.pucmm.edu.do/psc/cs92pro_newwin/EMPLOYEE/SA/c/SSR_STUDENT_ACAD_REC_FL.SSR_CRSE_HIST_FL.GBL?Page=SSR_CRSE_HIST_FL&amp;pslnkid=CS_S201605051911149930439391',7,'',this.id);cancelBubble(event);" aria-controls="divPAGECONTAINER_TGT" aria-hidden="true" role="button" class="ps_box-group psc_hidden psc_layout psc_rowact  psa_tab_SSR_CRSE_HIST_FL" tabindex="0" id="win11divSCC_LO_FL_WRK_SCC_GROUP_BOX_3$0"></div></li><li onclick="javascript:LaunchURL(null,'https://micampus.pucmm.edu.do/psc/cs92pro_newwin/EMPLOYEE/SA/c/SSR_STUDENT_ACAD_REC_FL.SSR_ACAD_REC_FL.GBL?Page=SSR_VWGD_GRADE_FL&amp;pslnkid=CS_S201605051912296299625833',7,'',this.id);cancelBubble(event);" aria-controls="divPAGECONTAINER_TGT" role="button" class="ps_box-scrollarea-row psc_rowact  psa_tab_SSR_VWGD_GRADE_FL" tabindex="0" id="win11divSCC_NAV_TAB_row$1"><div tabindex="-1" class="ps_box-group psc_layout psa_vtab psc_rowact" id="win11divSCC_LO_FL_WRK_SCC_GROUP_BOX_1$1"><div class="ps_box-link psa_list-linkitem psa_tabimage-height" id="win11divSCC_LO_FL_WRK_SCC_VIEW_BTN$1"><span class="ps-link-wrapper" title="Consulta de Calificaciones"><a id="SCC_LO_FL_WRK_SCC_VIEW_BTN$1" class="ps-link" href="javascript:void(0);" tabindex="-1"><span class="ps-text">Consulta de Calificaciones</span><img src="https://micampus.pucmm.edu.do/cs/cs92pro/cache/PS_GRADES_M_FL_ESP_1.svg" name="SCC_LO_FL_WRK_SCC_VIEW_BTN$IMG$1" class="ps-img" alt=""></a></span>
+</div></div><div onclick="javascript:LaunchURL(null,'https://micampus.pucmm.edu.do/psc/cs92pro_newwin/EMPLOYEE/SA/c/SSR_STUDENT_ACAD_REC_FL.SSR_ACAD_REC_FL.GBL?Page=SSR_VWGD_GRADE_FL&amp;pslnkid=CS_S201605051912296299625833',7,'',this.id);cancelBubble(event);" aria-controls="divPAGECONTAINER_TGT" aria-hidden="true" role="button" class="ps_box-group psc_hidden psc_layout psc_rowact  psa_tab_SSR_VWGD_GRADE_FL" tabindex="0" id="win11divSCC_LO_FL_WRK_SCC_GROUP_BOX_3$1"></div></li><li onclick="javascript:LaunchURL(null,'https://micampus.pucmm.edu.do/psc/cs92pro_newwin/EMPLOYEE/SA/c/SSR_STUDENT_ACAD_REC_FL.SSR_VW_UNOFF_TS_FL.GBL?Page=SSR_VW_UNOFF_TS_FL&amp;pslnkid=CS_SSR_VW_UNOFF_TS_FL_LNK',7,'',this.id);cancelBubble(event);" aria-controls="divPAGECONTAINER_TGT" role="button" class="ps_box-scrollarea-row psc_rowact  psa_tab_SSR_VW_UNOFF_TS_FL" tabindex="0" id="win11divSCC_NAV_TAB_row$2"><div tabindex="-1" class="ps_box-group psc_layout psa_vtab psc_rowact" id="win11divSCC_LO_FL_WRK_SCC_GROUP_BOX_1$2"><div class="ps_box-link psa_list-linkitem psa_tabimage-height" id="win11divSCC_LO_FL_WRK_SCC_VIEW_BTN$2"><span class="ps-link-wrapper" title="Expediente Extraoficial"><a id="SCC_LO_FL_WRK_SCC_VIEW_BTN$2" class="ps-link" href="javascript:void(0);" tabindex="-1"><span class="ps-text">Expediente Extraoficial</span><img src="https://micampus.pucmm.edu.do/cs/cs92pro/cache/PS_LATEST_JOBS_M_FL_ESP_1.svg" name="SCC_LO_FL_WRK_SCC_VIEW_BTN$IMG$2" class="ps-img" alt=""></a></span>
+</div></div><div onclick="javascript:LaunchURL(null,'https://micampus.pucmm.edu.do/psc/cs92pro_newwin/EMPLOYEE/SA/c/SSR_STUDENT_ACAD_REC_FL.SSR_VW_UNOFF_TS_FL.GBL?Page=SSR_VW_UNOFF_TS_FL&amp;pslnkid=CS_SSR_VW_UNOFF_TS_FL_LNK',7,'',this.id);cancelBubble(event);" aria-controls="divPAGECONTAINER_TGT" aria-hidden="true" role="button" class="ps_box-group psc_hidden psc_layout psc_rowact  psa_tab_SSR_VW_UNOFF_TS_FL" tabindex="0" id="win11divSCC_LO_FL_WRK_SCC_GROUP_BOX_3$2"></div></li><li onclick="javascript:LaunchURL(null,'https://micampus.pucmm.edu.do/psc/cs92pro_newwin/EMPLOYEE/SA/c/SSR_STUDENT_ACAD_REC_FL.SSR_RQST_OFF_TS_FL.GBL?Page=SSR_RQST_OFF_TS_FL&amp;pslnkid=CS_SSR_RQST_OFF_TS_FL_LNK',7,'',this.id);cancelBubble(event);" aria-controls="divPAGECONTAINER_TGT" role="button" class="ps_box-scrollarea-row psc_rowact  psa_tab_SSR_RQST_OFF_TS_FL" tabindex="0" id="win11divSCC_NAV_TAB_row$3"><div tabindex="-1" class="ps_box-group psc_layout psa_vtab psc_rowact" id="win11divSCC_LO_FL_WRK_SCC_GROUP_BOX_1$3"><div class="ps_box-link psa_list-linkitem psa_tabimage-height" id="win11divSCC_LO_FL_WRK_SCC_VIEW_BTN$3"><span class="ps-link-wrapper" title="Request Official Transcript"><a id="SCC_LO_FL_WRK_SCC_VIEW_BTN$3" class="ps-link" href="javascript:void(0);" tabindex="-1"><span class="ps-text">Request Official Transcript</span><img src="https://micampus.pucmm.edu.do/cs/cs92pro/cache/PS_APPR_DELEGATION_M_FL_ESP_1.svg" name="SCC_LO_FL_WRK_SCC_VIEW_BTN$IMG$3" class="ps-img" alt=""></a></span>
+</div></div><div onclick="javascript:LaunchURL(null,'https://micampus.pucmm.edu.do/psc/cs92pro_newwin/EMPLOYEE/SA/c/SSR_STUDENT_ACAD_REC_FL.SSR_RQST_OFF_TS_FL.GBL?Page=SSR_RQST_OFF_TS_FL&amp;pslnkid=CS_SSR_RQST_OFF_TS_FL_LNK',7,'',this.id);cancelBubble(event);" aria-controls="divPAGECONTAINER_TGT" aria-hidden="true" role="button" class="ps_box-group psc_hidden psc_layout psc_rowact  psa_tab_SSR_RQST_OFF_TS_FL" tabindex="0" id="win11divSCC_LO_FL_WRK_SCC_GROUP_BOX_3$3"></div></li></ul></section></div></div>
+</div>
+</div></div></div></div></div><div class="pst_panel-side1-bottom psc_hidden" id="PT_SIDE_BOTTOM"></div></div></div></div>
+<div class="ps_content" id="PT_CONTENT" role="main" aria-hidden="false">
+<div class="ps_main" id="PT_MAIN"><div class="ps_pagecontainer" id="win10divPAGECONTAINER">
+<div class="ps_pspagecontainer_md" id="win10divPSPAGECONTAINER_MD">
+<div class="ps_pagecontainer" id="divPAGECONTAINER_TGT">
+<div class="ps_pspagecontainer" id="win10divPSPAGECONTAINER">
+<div class="ps_box-group psc_layout ps_apps_content" id="win10div$ICField1"><div class="ps_box-group psc_layout" id="win10div$ICField4"><div class="ps_box-group ps_box-title ps_box-mdtitle psa_pagetitle" id="win10divPANEL_TITLE"><h1 id="PANEL_TITLE" class="ps_pagetitle"><span class="ps-text" id="PANEL_TITLElbl">Historial Cursos</span></h1></div><div class="ps_box-group psc_layout psa_pageaction" id="win10div$ICField5"></div></div><div class="ps_box-group psc_layout psc_float-clear" id="win10div$ICField6"><div class="ps_box-group psc_layout" id="win10div$ICField$2$"><div class="ps_box-group psc_layout" id="win10divDERIVED_ACRD_FL_GROUPBOX1"><div class="ps_box-grid-flex psa_border-bottom-none-anchor psa_text-align-left" id="win10divCRSE_HIST2$0"><div class="ps_box-grid-header" id="win10divCRSE_HIST2hdr$0"><div class="ps_box-grid-title"><div class="ps_box-text psc_rowcount" id="win10divCRSE_HIST2rowcnt$0"><span class="ps-text">26 filas</span></div></div><div class="ps_box-grid-header_bar"><div class="ps_header-grid-custom"><div class="ps_box-button psc_image_only psc_image_only" id="win10divDERIVED_ACRD_FL_FILTER_PB"><span class="ps-button-wrapper" title="Filtrar"><a id="DERIVED_ACRD_FL_FILTER_PB" class="ps-button" role="button" aria-pressed="false" onclick="javascript:cancelBubble(event);" href="javascript:submitAction_win10(document.win10,'DERIVED_ACRD_FL_FILTER_PB');"><img src="/cs/cs92pro/cache/PS_GRID_FILTER_S_FL_ESP_1.svg" name="DERIVED_ACRD_FL_FILTER_PB$IMG" class="ps-img" alt="Filtrar"></a></span>
+</div></div></div></div><div class="ps_box-gridc" id="win10divCRSE_HIST2gridc$0"><div class="ps_box-gridc-right" id="win10divCRSE_HIST2gridc-right$0"><div class="ps_box-grid" id="win10divCRSE_HIST2$grid$0"><table class="ps_grid-flex"><thead class="ps_grid-head"><tr class="ps_grid-head-row">
+<th scope="col" class="ps_grid-col psc_sort-enabled"><div class="ps_box_grid-col"><a onclick="gKeyDownTarget = this; javascript:cancelBubble(event);" href="javascript:submitAction_win10(document.win10,'CRSE_HIST2$srt10$0');" title="Pulse para ordenar." class="ps_grid-col-label psc_link" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$lblhdr$0">Clase</a></div></th><th scope="col" class="ps_grid-col psc_sort-enabled"><div class="ps_box_grid-col"><a onclick="gKeyDownTarget = this; javascript:cancelBubble(event);" href="javascript:submitAction_win10(document.win10,'CRSE_HIST2$srt12$0');" title="Pulse para ordenar." class="ps_grid-col-label psc_link" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$lblhdr$0">Descripción</a></div></th><th scope="col" class="ps_grid-col CRSE_TERM3 psc_sort-enabled"><div class="ps_box_grid-col"><a onclick="gKeyDownTarget = this; javascript:cancelBubble(event);" href="javascript:submitAction_win10(document.win10,'CRSE_HIST2$srt14$0');" title="Pulse para ordenar." class="ps_grid-col-label psc_link" id="win10divCRSE_TERM3lblhdr$0">Ciclo</a></div></th><th scope="col" class="ps_grid-col psc_sort-enabled"><div class="ps_box_grid-col"><a onclick="gKeyDownTarget = this; javascript:cancelBubble(event);" href="javascript:submitAction_win10(document.win10,'CRSE_HIST2$srt16$0');" title="Pulse para ordenar." class="ps_grid-col-label psc_link" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFFlblhdr$0">Calif</a></div></th><th scope="col" class="ps_grid-col psc_num psc_sort-enabled"><div class="ps_box_grid-col"><a onclick="gKeyDownTarget = this; javascript:cancelBubble(event);" href="javascript:submitAction_win10(document.win10,'CRSE_HIST2$srt17$0');" title="Pulse para ordenar." class="ps_grid-col-label psc_link" id="win10divDERIVED_SSS_HST_UNT_TAKENlblhdr$0">Unidades</a></div></th><th scope="col" class="ps_grid-col psc_sort-enabled"><div class="ps_box_grid-col"><a onclick="gKeyDownTarget = this; javascript:cancelBubble(event);" href="javascript:submitAction_win10(document.win10,'CRSE_HIST2$srt18$0');" title="Pulse para ordenar." class="ps_grid-col-label psc_link" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONGlblhdr$0">Estado</a></div></th></tr></thead>
+<tbody class="ps_grid-body"><tr class="ps_grid-row" id="CRSE_HIST2$0_row_0">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$0"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$0">ET ET218</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$0"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$0">Matrimonio: Sacramento de Amor</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$0"><span class="ps_box-value" id="CRSE_TERM3$0">Enero de 2020</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$0"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$0">&nbsp;</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$0"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$0">2,00</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$0"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_COURSE_PROGRESS_S_FL_ESP_1.svg" alt="En Curso" title="En Curso"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">En Curso</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+<tr class="ps_grid-row" id="CRSE_HIST2$0_row_1">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$1"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$1">FIS 1FIS211</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$1"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$1">Lab. FIS-211</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$1"><span class="ps_box-value" id="CRSE_TERM3$1">Enero de 2020</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$1"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$1">&nbsp;</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$1"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$1">1,00</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$1"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_COURSE_PROGRESS_S_FL_ESP_1.svg" alt="En Curso" title="En Curso"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">En Curso</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+<tr class="ps_grid-row" id="CRSE_HIST2$0_row_2">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$2"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$2">FIS FIS211</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$2"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$2">Física General I</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$2"><span class="ps_box-value" id="CRSE_TERM3$2">Enero de 2020</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$2"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$2">&nbsp;</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$2"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$2">4,00</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$2"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_COURSE_PROGRESS_S_FL_ESP_1.svg" alt="En Curso" title="En Curso"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">En Curso</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+<tr class="ps_grid-row" id="CRSE_HIST2$0_row_3">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$3"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$3">ILE ILE305</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$3"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$3">Inglés III</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$3"><span class="ps_box-value" id="CRSE_TERM3$3">Enero de 2020</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$3"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$3">&nbsp;</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$3"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$3">4,00</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$3"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_COURSE_PROGRESS_S_FL_ESP_1.svg" alt="En Curso" title="En Curso"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">En Curso</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+<tr class="ps_grid-row" id="CRSE_HIST2$0_row_4">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$4"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$4">ISC ISC212</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$4"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$4">Programación I</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$4"><span class="ps_box-value" id="CRSE_TERM3$4">Enero de 2020</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$4"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$4">&nbsp;</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$4"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$4">4,00</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$4"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_COURSE_PROGRESS_S_FL_ESP_1.svg" alt="En Curso" title="En Curso"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">En Curso</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+<tr class="ps_grid-row" id="CRSE_HIST2$0_row_5">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$5"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$5">MAT MAT212</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$5"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$5">Cálculo II</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$5"><span class="ps_box-value" id="CRSE_TERM3$5">Enero de 2020</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$5"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$5">&nbsp;</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$5"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$5">5,00</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$5"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_COURSE_PROGRESS_S_FL_ESP_1.svg" alt="En Curso" title="En Curso"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">En Curso</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+<tr class="ps_grid-row" id="CRSE_HIST2$0_row_6">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$6"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$6">FIL FIL121</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$6"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$6">Introducción a la Filosofía</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$6"><span class="ps_box-value" id="CRSE_TERM3$6">Septiembre de 2019</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$6"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$6">&nbsp;</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$6"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$6">3,00</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$6"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_COURSE_PROGRESS_S_FL_ESP_1.svg" alt="En Curso" title="En Curso"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">En Curso</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+<tr class="ps_grid-row" id="CRSE_HIST2$0_row_7">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$7"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$7">ILE ILE303</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$7"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$7">Inglés II</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$7"><span class="ps_box-value" id="CRSE_TERM3$7">Septiembre de 2019</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$7"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$7">&nbsp;</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$7"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$7">4,00</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$7"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_COURSE_PROGRESS_S_FL_ESP_1.svg" alt="En Curso" title="En Curso"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">En Curso</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+<tr class="ps_grid-row" id="CRSE_HIST2$0_row_8">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$8"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$8">ISC ISC105</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$8"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$8">Fundamentos de Programación</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$8"><span class="ps_box-value" id="CRSE_TERM3$8">Septiembre de 2019</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$8"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$8">&nbsp;</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$8"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$8">4,00</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$8"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_COURSE_PROGRESS_S_FL_ESP_1.svg" alt="En Curso" title="En Curso"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">En Curso</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+<tr class="ps_grid-row" id="CRSE_HIST2$0_row_9">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$9"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$9">MAT MAT211</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$9"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$9">Cálculo I</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$9"><span class="ps_box-value" id="CRSE_TERM3$9">Septiembre de 2019</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$9"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$9">&nbsp;</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$9"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$9">5,00</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$9"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_COURSE_PROGRESS_S_FL_ESP_1.svg" alt="En Curso" title="En Curso"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">En Curso</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+<tr class="ps_grid-row" id="CRSE_HIST2$0_row_10">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$10"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$10">FIS 1FIS101</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$10"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$10">Lab. FIS-101</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$10"><span class="ps_box-value" id="CRSE_TERM3$10">Abril de 2019</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$10"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$10">B</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$10"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$10">1,00</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$10"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_SUCCESS_S_FL_ESP_1.svg" alt="Realizado" title="Realizado"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">Realizado</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+<tr class="ps_grid-row" id="CRSE_HIST2$0_row_11">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$11"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$11">FIS FIS101</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$11"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$11">Introducción a la Física</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$11"><span class="ps_box-value" id="CRSE_TERM3$11">Abril de 2019</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$11"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$11">B</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$11"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$11">5,00</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$11"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_SUCCESS_S_FL_ESP_1.svg" alt="Realizado" title="Realizado"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">Realizado</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+<tr class="ps_grid-row" id="CRSE_HIST2$0_row_12">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$12"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$12">HG HG103</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$12"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$12">Introducción Historia Dominica</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$12"><span class="ps_box-value" id="CRSE_TERM3$12">Abril de 2019</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$12"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$12">A</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$12"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$12">3,00</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$12"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_SUCCESS_S_FL_ESP_1.svg" alt="Realizado" title="Realizado"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">Realizado</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+<tr class="ps_grid-row" id="CRSE_HIST2$0_row_13">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$13"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$13">ILE ILE205</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$13"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$13">Inglés I</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$13"><span class="ps_box-value" id="CRSE_TERM3$13">Abril de 2019</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$13"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$13">B</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$13"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$13">4,00</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$13"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_SUCCESS_S_FL_ESP_1.svg" alt="Realizado" title="Realizado"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">Realizado</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+<tr class="ps_grid-row" id="CRSE_HIST2$0_row_14">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$14"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$14">ISC ISC104</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$14"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$14">Introducción a la Algoritmia</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$14"><span class="ps_box-value" id="CRSE_TERM3$14">Abril de 2019</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$14"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$14">B</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$14"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$14">3,00</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$14"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_SUCCESS_S_FL_ESP_1.svg" alt="Realizado" title="Realizado"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">Realizado</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+<tr class="ps_grid-row" id="CRSE_HIST2$0_row_15">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$15"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$15">LET LET102</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$15"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$15">Español II</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$15"><span class="ps_box-value" id="CRSE_TERM3$15">Abril de 2019</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$15"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$15">A</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$15"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$15">4,00</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$15"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_SUCCESS_S_FL_ESP_1.svg" alt="Realizado" title="Realizado"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">Realizado</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+<tr class="ps_grid-row" id="CRSE_HIST2$0_row_16">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$16"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$16">MAT MAT102</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$16"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$16">Matemática Universitaria II-B</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$16"><span class="ps_box-value" id="CRSE_TERM3$16">Abril de 2019</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$16"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$16">A</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$16"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$16">5,00</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$16"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_SUCCESS_S_FL_ESP_1.svg" alt="Realizado" title="Realizado"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">Realizado</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+<tr class="ps_grid-row" id="CRSE_HIST2$0_row_17">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$17"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$17">DEP 1DEP102</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$17"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$17">Fútbol</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$17"><span class="ps_box-value" id="CRSE_TERM3$17">Enero de 2019</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$17"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$17">A</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$17"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$17">1,00</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$17"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_SUCCESS_S_FL_ESP_1.svg" alt="Realizado" title="Realizado"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">Realizado</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+<tr class="ps_grid-row" id="CRSE_HIST2$0_row_18">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$18"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$18">HG HG101</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$18"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$18">Historia de la Cultura Occiden</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$18"><span class="ps_box-value" id="CRSE_TERM3$18">Enero de 2019</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$18"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$18">A</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$18"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$18">3,00</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$18"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_SUCCESS_S_FL_ESP_1.svg" alt="Realizado" title="Realizado"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">Realizado</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+<tr class="ps_grid-row" id="CRSE_HIST2$0_row_19">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$19"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$19">ILE ILE103</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$19"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$19">Inglés Básico I</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$19"><span class="ps_box-value" id="CRSE_TERM3$19">Enero de 2019</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$19"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$19">EXO</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$19"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$19">&nbsp;</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$19"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_COURSE_TRANS_S_FL_ESP_1.svg" alt="Transferido" title="Transferido"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">Transferido</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+<tr class="ps_grid-row" id="CRSE_HIST2$0_row_20">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$20"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$20">ILE ILE203</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$20"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$20">Inglés Básico II</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$20"><span class="ps_box-value" id="CRSE_TERM3$20">Enero de 2019</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$20"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$20">S</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$20"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$20">&nbsp;</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$20"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_SUCCESS_S_FL_ESP_1.svg" alt="Realizado" title="Realizado"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">Realizado</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+<tr class="ps_grid-row" id="CRSE_HIST2$0_row_21">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$21"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$21">ISC ISC101</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$21"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$21">Introd. a Sistemas Computacion</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$21"><span class="ps_box-value" id="CRSE_TERM3$21">Enero de 2019</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$21"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$21">A</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$21"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$21">3,00</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$21"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_SUCCESS_S_FL_ESP_1.svg" alt="Realizado" title="Realizado"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">Realizado</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+<tr class="ps_grid-row" id="CRSE_HIST2$0_row_22">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$22"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$22">LET LET101</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$22"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$22">Español I</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$22"><span class="ps_box-value" id="CRSE_TERM3$22">Enero de 2019</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$22"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$22">A</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$22"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$22">4,00</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$22"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_SUCCESS_S_FL_ESP_1.svg" alt="Realizado" title="Realizado"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">Realizado</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+<tr class="ps_grid-row" id="CRSE_HIST2$0_row_23">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$23"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$23">MAT MAT101</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$23"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$23">Matemática Universitaria I</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$23"><span class="ps_box-value" id="CRSE_TERM3$23">Enero de 2019</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$23"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$23">A</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$23"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$23">5,00</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$23"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_SUCCESS_S_FL_ESP_1.svg" alt="Realizado" title="Realizado"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">Realizado</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+<tr class="ps_grid-row" id="CRSE_HIST2$0_row_24">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$24"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$24">ORI ORI101</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$24"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$24">Orientación Académica</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$24"><span class="ps_box-value" id="CRSE_TERM3$24">Enero de 2019</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$24"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$24">A</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$24"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$24">1,00</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$24"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_SUCCESS_S_FL_ESP_1.svg" alt="Realizado" title="Realizado"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">Realizado</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+<tr class="ps_grid-row" id="CRSE_HIST2$0_row_25">
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psa_bold-anchor  psc_label-hide" id="win10divDERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$25"><span class="ps_box-value" id="DERIVED_SSS_HST_SSS_SUBJ_CATLG$80$$25">MAT MAT212</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$25"><span class="ps_box-value" id="DERIVED_SSS_HST_SSR_CLASSNAME_LONG$83$$25">Cálculo II</span>
+</div></td>
+<td class="ps_grid-cell CRSE_TERM3">
+<div class="ps_box-edit psc_disabled psc_icon psc_label-suppressed psc_has_value  psc_label-hide" id="win10divCRSE_TERM3$25"><span class="ps_box-value" id="CRSE_TERM3$25">No Asignado</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value  psc_label-hide" id="win10divDERIVED_SSS_HST_CRSE_GRADE_OFF$25"><span class="ps_box-value" id="DERIVED_SSS_HST_CRSE_GRADE_OFF$25">&nbsp;</span>
+</div></td>
+<td class="ps_grid-cell psc_num">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_num  psc_label-hide" id="win10divDERIVED_SSS_HST_UNT_TAKEN$25"><span class="ps_box-value" id="DERIVED_SSS_HST_UNT_TAKEN$25">5,00</span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-htmlarea psc_label-suppressed" id="win10divDERIVED_SSS_HST_SSR_STATUS_LONG$25"><div class="ps-htmlarea">
+<!-- Begin HTML Area Name Undisclosed -->
+<div class="ps_box-img psc_label-suppressed psc_display-inline psc_padding-right0_5em"><img class="ps-img" src="/cs/cs92pro/cache/PS_COURSE_PLANNED_S_FL_ESP_1.svg" alt="Planificado" title="Planificado"></div><div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value psc_display-inline"><span class="ps-box-value" aria-disabled="true">Planificado</span></div>
+<!-- End HTML Area -->
+</div>
+</div></td>
+</tr>
+</tbody></table>
+</div></div></div></div></div></div></div></div></div></div></div></div>
+</div>
+
+</div>
+<div class="pst_panel-side2 pst_panel-systemrc " id="PT_SIDE2"><div class="ps_pspagecontainer_side2" id="win10divPSPAGECONTAINER_SIDE2">
+<div aria-expanded="false" class="pst_panel-control  psc_page-container" id="win10side2divPT_WORK_PT_SIDE2PAGE_BTN"><div class="pst_panel-tabcontainer" id="win10side2divPT_WORK_PT_SIDE2PAGE_BTN$tab"><div class="ps_box-button pst_panel-button psc_image_only"><span class="ps-button-wrapper" title="Panel Suplementario"><a class="ps-button" role="button" id="PT_WORK_PT_SIDE2PAGE_BTN$PIMG" onclick="javascript:cancelBubble(event);" href="javascript:toggleSideTab('PT_WORK_PT_SIDE2PAGE_BTN$PIMG',2);"><span class="ps-text">Panel Suplementario</span><img class="ps-img" src="/cs/cs92pro/cache/PT_RC_PANELBUTTON_ICON_ESP_1.svg" alt=""></a></span></div></div><div class="pst_panel-content psc_close" id="win10side2divPT_WORK_PT_SIDE2PAGE_BTN$content">
+<div class="ps_box-group psc_layout  psc_page-container" id="win10side2divPTLAYOUT_SIDE_GROUPBOX6"><div class="ps_box-group psc_layout" id="win10side2divPTLAYOUT_SIDE_GROUPBOX1"><div class="ps_box-group psc_layout ps_collection ps_button_bar psc_distribute psc_grouped_fitted psc_rf-selector" id="win10side2divPTLAYOUT_SIDE_GROUPBOX5"><div class="ps_box-radio" id="win10side2divPT_RCSEL_RC"><div class="ps_box-label" id="win10side2divPT_RCSEL_RClbl"><label for="PT_RCSEL_RC" id="PT_RCSEL_RC_LBL" class="ps-label" title="Información Relacionada">Información Relacionada</label></div><div class="ps_box-control" id="win10side2divPT_RCSEL_RCctrl"><input type="radio" name="PT_RCSEL_RC" id="PT_RCSEL_RC" class="ps-radio" onfocus="this.parentElement.parentElement.classList.add(&quot;psc_focus&quot;); doFocus_win10(this,false,true);" onblur="this.parentElement.parentElement.classList.remove(&quot;psc_focus&quot;);" value="R" onclick="setupTimeout2();addchg_win10(this);submitAction_win10(this.form,this.id);" psnchg="0"></div>
+</div><div class="ps_box-radio psc_selected " id="win10side2divPT_RCSEL_ANALYTICS"><div class="ps_box-label" id="win10side2divPT_RCSEL_ANALYTICSlbl"><label for="PT_RCSEL_ANALYTICS" id="PT_RCSEL_ANALYTICS_LBL" class="ps-label" title="Mis Análisis">Mis Análisis</label></div><div class="ps_box-control" id="win10side2divPT_RCSEL_ANALYTICSctrl"><input type="radio" name="PT_RCSEL_RC" id="PT_RCSEL_ANALYTICS" class="ps-radio" aria-selected="true" onfocus="this.parentElement.parentElement.classList.add(&quot;psc_focus&quot;); doFocus_win10(this,false,true);" onblur="this.parentElement.parentElement.classList.remove(&quot;psc_focus&quot;);" value="A" checked="checked" onclick="setupTimeout2();addchg_win10(this);submitAction_win10(this.form,this.id);" psnchg="0"></div>
+</div></div></div><div class="ps_box-group ps_panel_content psc_padding-05em psc_padding-topnone" id="win10side2divPTLAYOUT_SIDE_GROUPBOX2"><div class="ps_box-group" id="win10side2divPT_SIDE2_ANALITICS"><div class="ps_box-group psc_layout" id="win10side2div$ICField1"><div class="ps_box-group psc_layout" id="win10side2div$ICField18"></div><div class="ps_box-group psc_layout" id="win10side2div$ICField19"><div class="ps_box-grid-flex ptpg_reportlist " id="win10side2divPTPG_PUBPG_DVW$0"><div class="ps_box-grid-header" id="win10side2divPTPG_PUBPG_DVWhdr$0"><div class="ps_box-grid-title"><h2 class="ps_grid-title"><span class="ps-text">Mis Análisis</span></h2>
+</div><div class="ps_box-grid-header_bar"><div class="ps_header-grid-custom"></div></div></div><div class="ps_box-gridc" id="win10side2divPTPG_PUBPG_DVWgridc$0"><div class="ps_box-gridc-right" id="win10side2divPTPG_PUBPG_DVWgridc-right$0"><div class="ps_box-grid" id="win10side2divPTPG_PUBPG_DVW$grid$0"><table class="ps_grid-flex" title="Mis Análisis"><thead class="ps_grid-head"><tr class="ps_grid-head-row">
+<th scope="col" class="ps_grid-col PTPGREPORTNAME"><div class="ps_box_grid-col"><div class="ps_grid-col-label" id="win10side2divPTPGREPORTNAMElblhdr$0">No hay análisis disponibles.</div></div></th><th scope="col" class="ps_grid-col"><div class="ps_box_grid-col"><div class="ps_grid-col-label" id="win10side2divPTPG_PUBPG_DVW_PTPG_SRCCOMPlblhdr$0">Creado De</div></div></th></tr></thead>
+<tbody class="ps_grid-body"><tr class="ps_grid-row" id="PTPG_PUBPG_DVW$0_row_0">
+<td class="ps_grid-cell PTPGREPORTNAME">
+<div class="ps_box-link psc_disabled" id="win10side2divPTPGREPORTNAME$0"><span id="PTPGREPORTNAME$span$0" class="ps-link-wrapper" title="Descripción"><a id="PTPGREPORTNAME$0" disabled="disabled" class="ps-link" ptlinktgt="pt_peoplecode">No hay análisis disponibles.</a></span>
+</div></td>
+<td class="ps_grid-cell">
+<div class="ps_box-edit psc_disabled psc_label-suppressed psc_has_value" id="win10side2divPTPG_PUBPG_DVW_PTPG_SRCCOMP$0"><span class="ps_box-value" id="PTPG_PUBPG_DVW_PTPG_SRCCOMP$0">&nbsp;</span>
+</div></td>
+</tr>
+</tbody></table>
+</div></div></div></div></div></div></div><div class="ps_box-group" id="win10side2divPT_SIDE2_RC"><h3 class="ps_header-group"><span class="ps-text" id="PT_SIDE2_RClbl">Información Relacionada</span></h3>
+<div class="ps_content-group" id="win10side2divPT_SIDE2_RCgrp">
+<div class="ps_box-group psc_layout" id="win10side2divPTLAYOUT_SIDE_GROUPBOX7"><div class="ps_box-button psc_image_only psc_transparent" id="win10side2divPTCS_RCPERS_WRK_PTCS_CMPLVL_PERS"><span class="ps-button-wrapper" title="Personalizar CR"><a id="PTCS_RCPERS_WRK_PTCS_CMPLVL_PERS" class="ps-button" role="button" onclick="javascript:cancelBubble(event);" href="javascript:submitAction_win10(document.win10,'PTCS_RCPERS_WRK_PTCS_CMPLVL_PERS');"><img src="/cs/cs92pro/cache/PTPG_NUI_OPTIONS_ESP_1.svg" name="PTCS_RCPERS_WRK_PTCS_CMPLVL_PERS$IMG" class="ps-img" alt="Personalizar CR"></a></span>
+</div></div><div class="ps_box-group" id="win10side2div$ICField11"><div class="ps_box-group psc_layout" id="win10side2div$ICField$2$"><div class="ps_box-scrollarea" id="win10side2div$ICField2$0"><div class="ps_box-scrollarea-row" id="win10side2div$ICField2_row$0"><div class="ps_box-group psc_collapsible pst_rc-general" id="win10side2divPTCS_FLRTFR_DVW_PTCS_GROUPLET$0"><div class="ps_box-button psc_image_only psc_hidden" id="win10side2divPTCS_FLRTFR_DVW_PTCS_GROUPLET$16$$0"><span class="ps-button-wrapper" title="Grouplet"><a id="PTCS_FLRTFR_DVW_PTCS_GROUPLET$16$$0" class="ps-button" role="button" onclick="javascript:cancelBubble(event);" href="javascript:submitAction_win10(document.win10,'PTCS_FLRTFR_DVW_PTCS_GROUPLET$16$$0');"><img src="/cs/cs92pro/cache/PT_MODAL_CNTRL_ESP_1.gif" name="PTCS_FLRTFR_DVW_PTCS_GROUPLET$16$$IMG$0" class="ps-img" alt="Grouplet"></a></span>
+</div></div></div></div></div></div></div></div></div></div></div></div></div></div>
+
+</div><div class="ps_footer" id="PT_FOOTER"></div>
+<div id="DetachDiv" height="0" width="0" frameborder="0"></div>
+</div>
+<a class="ps-anchor" id="ICLastAnchor_win10"></a>
+</form>
+<div id="popupDragFrame" class="popupDragFrame">&nbsp;</div>
+<!-- Mouse-over popup Begin -->
+<table id="win10MOpopupContainer" width="20" border="0" cellpadding="0" cellspacing="0" style="display:none; position:absolute; top:0; left:0;" onmouseover="MOpopupObj_win10.StartPopup('win10MOpopupContainer', '');" onmouseout="MOpopupObj_win10.StopPopup();"><tbody><tr>
+<td id="win10MOpopupInner" height="25" width="20" align="left" valign="top" class="MOBGImage">
+<div id="win10MOdivpopupFrame" tabindex="-1" onclick="MOpopupObj_win10.SetFocusFlag(false);" style="overflow:auto; width:20px; height: 60px; padding:8px; box-shadow:0 0 5px #000000; background-color:white; border: 1px solid #666666;">test</div></td>
+</tr>
+</tbody></table>
+<!-- Mouse-over popup End  -->
+
+<script language="JavaScript">
+var bMDTargetStart=false;
+var bMDTarget=false;
+if (typeof(setPSTouchHandlerDoc) != 'undefined' && setPSTouchHandlerDoc != null) setPSTouchHandlerDoc ();
+var nMaxSavedStates=5;
+bSearchDialog_empty =false;
+var sHistURL="https://micampus.pucmm.edu.do/psc/cs92pro_10/EMPLOYEE/SA/c/SSR_STUDENT_ACAD_REC_FL.SSR_MD_ACAD_REC_FL.GBL?page=SCC_MD_TGT_PAGE_FL&Action=U&MD=Y&GMenu=SSR_STUDENT_ACAD_REC_FL&GComp=SSR_ACADREC_NAV_FL&GPage=SCC_START_PAGE_FL&scname=CS_SSR_ACADEMIC_RECORDS_FL";
+var bCloseModal = false;
+var bICList = false;
+var bHtml5Doc = true;
+var bClearBackState=false;
+var bPageTransfered=false;
+var bTransferAnimate=false;
+var bCleanHtml = true;
+var bDefer = true;
+document.deferFldArr_win10 = new Array();
+document.hiddenFldArr_win10 =new Array('ICType','ICElementNum','ICStateNum','ICAction','ICModelCancel','ICXPos','ICYPos','ResponsetoDiffFrame','TargetFrameName','FacetPath','ICFocus','ICSaveWarningFilter','ICChanged','ICSkipPending','ICAutoSave','ICResubmit','ICSID','ICActionPrompt','ICTypeAheadID','ICBcDomData','ICDNDSrc','ICPanelHelpUrl','ICPanelName','ICPanelControlStyle','ICFind','ICAddCount','ICAppClsData');
+document.chgFldArr_win10 = new Array();
+AddToHistory('Registro Académico', '', 'returntolastpage@0', 'SCC_MD_TGT_PAGE_FL', 1, 10, 0, 0,'',0, '', 0);
+var bCleanHtml = true;
+var bDefer = true;
+document.hiddenFldArr_win10 =new Array('ICType','ICElementNum','ICStateNum','ICAction','ICModelCancel','ICXPos','ICYPos','ResponsetoDiffFrame','TargetFrameName','FacetPath','ICFocus','ICSaveWarningFilter','ICChanged','ICSkipPending','ICAutoSave','ICResubmit','ICSID','ICActionPrompt','ICTypeAheadID','ICBcDomData','ICDNDSrc','ICPanelHelpUrl','ICPanelName','ICPanelControlStyle','ICFind','ICAddCount','ICAppClsData');
+document.chgFldArr_win10 = new Array();
+var bCDATA = false;
+var bAccessibleLayout = false;
+var bLoadCompleted = true;
+</script><div id="divdobackclassic" style="visibility:hidden" aria-hidden="true"><a id="ancdobackclassic" href="javascript:DoBack('win10')" style="visibility:hidden" aria-hidden="true"></a></div>
+</body></html>""";
