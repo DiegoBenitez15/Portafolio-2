@@ -13,7 +13,7 @@ char ** extraertest(char * p)
     int tamanoei = (int)(strlen(ei));
     char *pi,*pf;
     pi = p;
-    char **result = (char**) malloc(sizeof(char*));
+    char **result = malloc(sizeof(char*));
     int tmp,c;
     c = 1;
 
