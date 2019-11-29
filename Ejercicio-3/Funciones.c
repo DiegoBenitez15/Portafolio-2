@@ -6,10 +6,11 @@
 
 void sort(void *base, size_t nitems, size_t size, int (*compar)(const void *, const void*))
 {
-    int i,j,k;
+    int i;
+    int j,k;
     char swap;
     char *pt = (char*)base;
-    for (i = 0 ; i < (int)(nitems*size) - 1; i++)
+    for (i = base ; i < (int)(nitems*size) - 1; i++)
     {
         for(j = 0 ; j < (int)(nitems*size) - i - 1; j += size)
         {
