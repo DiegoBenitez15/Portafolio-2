@@ -10,9 +10,9 @@ void sort(void *base, size_t nitems, size_t size, int (*compar)(const void *, co
     int j,k;
     char swap;
     char *pt = (char*)base;
-    for (i = base ; i < (int)(nitems*size) - 1; i++)
+    for (i = 0 ; i < (int)(nitems*size - size); i+=size)
     {
-        for(j = 0 ; j < (int)(nitems*size) - i - 1; j += size)
+        for(j = 0 ; j < (int)(nitems*size - i - size); j += size)
         {
             if (compar(base+j,base+j+size) > 0)
             {
